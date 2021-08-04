@@ -1,25 +1,23 @@
 import './App.css';
 import { BrowserRouter as Router, Route } from "react-router-dom"
+import Home from './Pages/Home';
+import Components from './Pages/Components';
 
 function App() {
   return (
     <div className="App">
-      <div className="text-indigo">
+      {/* <div className="text-indigo">
           Im using tailwind css
       </div>
-      <div>
+      <div className="text-indigo-lighter">
         Routeing here
-      </div>
+      </div> */}
       <Router>
         <Route exact path="/">
-          <div>
-            Home
-          </div>
+          <Home />
         </Route>
-        <Route exact path="/component">
-          <div>
-            Component
-          </div>
+        <Route exact path="/components">
+          <Components />
         </Route>
       </Router>
     </div>
