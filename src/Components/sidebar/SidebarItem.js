@@ -2,47 +2,47 @@ const SidebarItem =[
     {
         id : 1,
         item : 'Text Input',
-        link : '#'
+        linkpath : '/components/text-input'
     },
     {
         id : 2,
         item : 'Header',
-        link : '#'
+        linkpath : '#'
     },
     {
         id : 3,
         item : 'Input',
-        link : '#'
+        linkpath : '#'
     },
     {
         id : 4,
         item : 'Radio',
-        link : '#'
+        linkpath : '#'
     },
     {
         id : 5,
         item : 'Checkbox',
-        link : '#'
+        linkpath : '#'
     },
     {
         id : 6,
         item : 'Button',
-        link : '#'
+        linkpath : '#'
     },
     {
         id : 7,
         item : 'Alert',
-        link : '#'
+        linkpath : '#'
     },
     {
         id : 8,
         item : 'Toast Messsage',
-        link : '#'
+        linkpath : '#'
     },
     {
         id : 9,
         item : 'Cards',
-        link : '#'
+        linkpath : '#'
     },
 ]
 

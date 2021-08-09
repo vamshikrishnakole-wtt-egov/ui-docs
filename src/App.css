@@ -62,7 +62,7 @@ p{
   background-color: #0B4B66;
 }
 .components_item{
-  width: calc(87% - 14rem);
+  width: calc(100% - 14rem);
   height: auto;
   margin-left: 2rem;
   margin-top: 3rem;
@@ -71,4 +71,17 @@ p{
   border-radius: 24px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
 }
+.input-shadow{
+  border-radius: 7px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+.navbar_shadow{
+  box-shadow: 0px -8px 25px rgba(0, 0, 0, 0.25);
+}
 /* Components and sidebar */
+
+@media screen and (max-width: 768px){
+  .banner_height{
+    height: 30rem;
+  }
+}

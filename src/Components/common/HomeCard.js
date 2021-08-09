@@ -1,25 +1,32 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 import arrowSign from "../../assets/img/arrow.png";
 
 const HomeCard = (props) => {
-    return (
-            <div className="custom-shadow">
-                <div className="flex px-4 py-8">
-                <div className="pt-2">
-                    <img src={props.brandLogo} alt={props.heading} className="w-8 h-8" />
-                </div>
-                <div className="pl-4 w-52">
-                    <h2 className="text-2xl font-bold">{props.heading}</h2>
-                    <p>{props.text}</p>
-                    <div className="flex items-center">
-                        <Link to="#" className="text-border">{props.linkContent}</Link>
-                        <img src={arrowSign} alt="->" className="pl-2" />
-                    </div>
-                </div>
-                </div>
-            </div>
-    )
-}
+  return (
+    <div className="custom-shadow">
+      <div className="flex items-start px-8 py-8">
+        <div>
+          <img src={props.brandLogo} alt={props.heading} />
+        </div>
+        <div className="w-full px-8">
+          <h2 className="xl:text-2xl lg:text-xl md:text-sm  sm:text-xs font-bold ">
+            {props.heading}
+          </h2>
+          <p className="2xl:text-lg lg:text-sm sm:text-xs">{props.text}</p>
+          <Link
+            to="#"
+            className="text-border 2xl:text-lg lg:text-sm sm:text-xs flex items-center"
+          >
+            {props.linkContent}{" "}
+            <span>
+              <img src={arrowSign} alt="->" className="pl-2" />
+            </span>
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default HomeCard
+export default HomeCard;
