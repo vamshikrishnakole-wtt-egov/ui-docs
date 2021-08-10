@@ -7,42 +7,42 @@ const SidebarItem =[
     {
         id : 2,
         item : 'Header',
-        linkpath : '#'
+        linkpath : '/components/header'
     },
     {
         id : 3,
         item : 'Input',
-        linkpath : '#'
+        linkpath : '/components/input'
     },
     {
         id : 4,
         item : 'Radio',
-        linkpath : '#'
+        linkpath : 'components/radio'
     },
     {
         id : 5,
         item : 'Checkbox',
-        linkpath : '#'
+        linkpath : '/components/checkbox'
     },
     {
         id : 6,
         item : 'Button',
-        linkpath : '#'
+        linkpath : '/components/button'
     },
     {
         id : 7,
         item : 'Alert',
-        linkpath : '#'
+        linkpath : '/components/alert'
     },
     {
         id : 8,
         item : 'Toast Messsage',
-        linkpath : '#'
+        linkpath : '/components/toast-message'
     },
     {
         id : 9,
         item : 'Cards',
-        linkpath : '#'
+        linkpath : '/components/cards'
     },
 ]
 

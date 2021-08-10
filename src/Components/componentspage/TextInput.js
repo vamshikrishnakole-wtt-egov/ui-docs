@@ -10,7 +10,7 @@ const TextInput = () => {
 
   }
   return (
-    <div className="pb-80 pr-24">
+    <div className="pb-80 md:pr-24">
       <div className="mb-4">
         <h2 className="2xl:text-3xl xl:text-2xl md:text-xl sm:text-sm font-bold mb-2">Text Input</h2>
         <div className="input-shadow px-3 py-5 cursor-pointer" onClick={()=>setName(!name)}>
@@ -22,7 +22,7 @@ const TextInput = () => {
               <input
                 type="text"
                 name="name"
-                className="w-80 border border-input_border"
+                className="md:w-80 border border-input_border"
               />
             </div>
           </form>
@@ -103,7 +103,7 @@ const TextInput = () => {
               <input
                 type="text"
                 name="name"
-                className="w-80 border border-input_border pl-2"
+                className="md:w-80 border border-input_border pl-2"
                 placeholder="+91"
               />
               <small className="text-xs pt-2">
@@ -153,7 +153,7 @@ const TextInput = () => {
               <input
                 type="text"
                 name="name"
-                className="w-80 border pl-2 border-red-400"
+                className="md:w-80 border pl-2 border-red-400"
                 value="+91945746"
                 onChange={handleChange}
               />
