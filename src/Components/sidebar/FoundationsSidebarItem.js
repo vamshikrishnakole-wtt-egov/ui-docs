@@ -10,7 +10,7 @@ const FoundationsSidebarItems =[
         linkpath : '/foundations/typography'
     },
     {
-        id : 2,
+        id : 3,
         item : 'Iconography',
         linkpath : '/foundations/iconography'
     },

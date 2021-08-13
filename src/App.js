@@ -8,9 +8,22 @@ import Foundations from "./Pages/foundations/Foundations";
 import FoundationsColor from "./Pages/foundations/FoundationsColor";
 import FoundationsTypography from "./Pages/foundations/FoundationsTypography";
 import FoundationsIconography from "./Pages/foundations/FoundationsIconography";
+import Brand from "./Pages/brand/Brand";
+import ComponentsHeader from "./Pages/components/ComponentsHeader";
+import Input from "./Pages/components/Input";
+import RadioPage from "./Pages/components/RadioPage";
+import CheckboxPage from "./Pages/components/CheckboxPage";
+import ButtonPage from "./Pages/components/ButtonPage";
+import ToastMessagePage from "./Pages/components/ToastMessagePage";
+import CardsPage from "./Pages/components/CardsPage";
+import BannerPage from "./Pages/components/BannerPage";
+import BreadCrumbsPage from "./Pages/components/BreadCrumbsPage";
+
 // import { Body, TopBar } from "@egov/digit-ui-react-components"; // for component use
 
 function App() {
+  window.Digit = window.Digit || {};
+
   return (
     <>
       <Router>
@@ -25,6 +38,33 @@ function App() {
           <Route exact path="/components/text-input">
             <ComponentsTextInput />
           </Route>
+          <Route exact path="/components/header">
+            <ComponentsHeader />
+          </Route>
+          <Route exact path="/components/input">
+            <Input />
+          </Route>
+          <Route exact path="/components/radio">
+            <RadioPage />
+          </Route>
+          <Route exact path="/components/checkbox">
+            <CheckboxPage />
+          </Route>
+          <Route exact path="/components/button">
+            <ButtonPage />
+          </Route>
+          <Route exact path="/components/banner">
+            <BannerPage />
+          </Route>
+          <Route exact path="/components/toast-message">
+            <ToastMessagePage />
+          </Route>
+          <Route exact path="/components/cards">
+            <CardsPage />
+          </Route>
+          <Route exact path="/components/breadcrumbs">
+            <BreadCrumbsPage />
+          </Route>
           <Route exact path="/foundations">
             <Foundations />
           </Route>
@@ -36,6 +76,9 @@ function App() {
           </Route>
           <Route exact path="/foundations/iconography">
             <FoundationsIconography />
+          </Route>
+          <Route exact path="/brand">
+            <Brand />
           </Route>
         </Switch>
       </Router>

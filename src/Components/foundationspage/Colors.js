@@ -3,20 +3,20 @@ import colorsItem from "./ColorsItem";
 
 const Colors = () => {
   return (
-    <div className="w-5/6 mb-60">
+    <div className="md:w-5/6 w-full mb-60">
       <div className="pb-2">
         <h2 className="2xl:text-3xl xl:text-2xl sm:text-xl font-bold">
           Colors
         </h2>
       </div>
-      <div className="pb-4 w-1/2">
+      <div className="pb-4">
         <h2 className="sm:text-xl font-bold">Overview</h2>
         <p className="md:text-xs lg:text-sm 2xl:text-base">
           This page offers the DIGIT colour palette details. Make sure you
           adhere to the defined colour guidelines provided below.
         </p>
       </div>
-      <div className="pb-4 w-1/2">
+      <div className="pb-4">
         <h2 className="sm:text-xl font-bold">Guidelines</h2>
         <p className="md:text-xs lg:text-sm 2xl:text-base py-2">
           The colour palette shared in this section should be used for all DIGIT
@@ -45,7 +45,7 @@ const Colors = () => {
           </li>
         </ol>
       </div>
-      <div className="pb-4 w-1/2">
+      <div className="pb-4">
         <h2 className="sm:text-xl font-bold">Contrast Aspect</h2>
         <p className="md:text-xs lg:text-sm 2xl:text-base">
           Make sure that the contrast ratio of the text and other UI elements
@@ -53,7 +53,7 @@ const Colors = () => {
           Guidelines (WCAG) 2.1.
         </p>
       </div>
-      <div className="pb-4 w-1/2">
+      <div className="pb-4">
         <h2 className="sm:text-xl font-bold">Colour Aspect</h2>
         <p className="md:text-xs lg:text-sm 2xl:text-base">
           Use the DIGIT colour palette given below.

@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import arrowSign from "../../assets/img/arrow.png";
+import Card from "./Card";
 
 const HomeCard = (props) => {
   return (
-    <div className="custom-shadow">
+    <Card>
       <div className="flex items-start px-8 py-8">
         <div>
           <img src={props.brandLogo} alt={props.heading} />
@@ -25,7 +26,7 @@ const HomeCard = (props) => {
           </Link>
         </div>
       </div>
-    </div>
+    </Card>
   );
 };
 

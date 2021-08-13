@@ -17,7 +17,7 @@ const SidebarItem =[
     {
         id : 4,
         item : 'Radio',
-        linkpath : 'components/radio'
+        linkpath : '/components/radio'
     },
     {
         id : 5,
@@ -31,8 +31,8 @@ const SidebarItem =[
     },
     {
         id : 7,
-        item : 'Alert',
-        linkpath : '/components/alert'
+        item : 'Banner',
+        linkpath : '/components/banner'
     },
     {
         id : 8,
@@ -43,6 +43,11 @@ const SidebarItem =[
         id : 9,
         item : 'Cards',
         linkpath : '/components/cards'
+    },
+    {
+        id : 9,
+        item : 'Bread Crumbs',
+        linkpath : '/components/breadcrumbs'
     },
 ]
 

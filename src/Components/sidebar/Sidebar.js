@@ -13,7 +13,7 @@ const Sidebar = () => {
           >
             <NavLink
               className="text-lg py-4 pl-4"
-              activeClassName="border-l-2 border-border text-xl"
+              activeClassName="border-l-2 border-border text-xl text-border"
               to={data.linkpath}
             >
               {data.item}

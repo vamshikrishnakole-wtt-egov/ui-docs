@@ -1,15 +1,14 @@
+import { Card, CardCaption, CardHeader, CardLabel, CardLabelDesc, CardLabelError, CardSectionHeader, CardText, CardTextButton, Header, InputCard } from "@egovernments/digit-ui-react-components";
 import React from "react";
 import { desktopData, mobileData } from "./TypographyItem";
 
 const Typography = () => {
   return (
-    <div className="w-5/6 mb-60">
+    <div className="md:w-5/6 w-full mb-60">
       <div className="pb-2">
-        <h2 className="2xl:text-3xl xl:text-2xl sm:text-xl font-bold">
-          Typography
-        </h2>
+        <Header>Typography</Header>
       </div>
-      <div className="pb-4 w-1/2">
+      <div className="pb-4">
         <h2 className="sm:text-xl font-bold">Overview</h2>
         <p className="md:text-xs lg:text-sm 2xl:text-base">
           Clear font, consistent heading styles, and structured paragraphs help
@@ -22,7 +21,7 @@ const Typography = () => {
           consistency in the application interface.
         </p>
       </div>
-      <div className="pb-4 w-1/2">
+      <div className="pb-4">
         <h2 className="sm:text-xl font-bold">Guidelines</h2>
         <p className="md:text-xs lg:text-sm 2xl:text-base">
           Follow the prescribed typography style guidelines as given below to
@@ -80,7 +79,7 @@ const Typography = () => {
           })}
         </div>
       </div>
-      <div className="pb-4 w-1/2">
+      <div className="pb-4">
         <h2 className="sm:text-xl font-bold">Font</h2>
         <ul className="list-disc list-inside">
           <li className="py-2">
@@ -94,7 +93,7 @@ const Typography = () => {
           </li>
         </ul>
       </div>
-      <div className="pb-4 w-1/2">
+      <div className="pb-4">
         <h2 className="sm:text-xl font-bold">Headings</h2>
         <ul className="list-disc list-inside">
           <li className="py-2">
@@ -112,7 +111,7 @@ const Typography = () => {
           </li>
         </ul>
       </div>
-      <div className="pb-4 w-1/2">
+      <div className="pb-4">
         <h2 className="sm:text-xl font-bold">Paragraphs</h2>
         <ul className="list-disc list-inside">
           <li className="py-2">
@@ -122,7 +121,7 @@ const Typography = () => {
           <li className="py-2">Use 24px font size for lead paragraphs.</li>
         </ul>
       </div>
-      <div className="pb-4 w-1/2">
+      <div className="pb-4">
         <h2 className="sm:text-xl font-bold">Links</h2>
         <ul className="list-disc list-inside">
           <li className="py-2">
@@ -130,6 +129,22 @@ const Typography = () => {
             details in context.
           </li>
         </ul>
+      </div>
+      {/* New Card Component start here */}
+        <Header>All Card Component is here</Header>
+      <div className="pb-4">
+          <Card>
+          <CardHeader>Card Header</CardHeader>
+            <CardText>Card Text</CardText>
+            <CardLabelDesc>Card Label Desc</CardLabelDesc>
+            <CardCaption>Card Caption</CardCaption>
+            <CardLabelError>Card Label Error</CardLabelError>
+            <CardLabel>Card Label</CardLabel>
+            <CardSectionHeader>Card Section Header</CardSectionHeader>
+            <CardTextButton>Card Text Button</CardTextButton>
+            {/* <CardSubHeader>Card sub Header</CardSubHeader> */}
+            <InputCard>Input Card</InputCard>
+          </Card>
       </div>
     </div>
   );

@@ -1,11 +1,11 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-import FoundationsSidebarItems from "./FoundationsSidebarItem"
+import BrandSidebarItems from "./BrandsidebarItem"
 
-const FoundationsSidebar = () => {
+const BrandSidebar = () => {
     return (
         <ul className="pt-4">
-      {FoundationsSidebarItems.map((data) => {
+      {BrandSidebarItems.map((data) => {
         return (
           <li
             key={data.id}
@@ -25,4 +25,4 @@ const FoundationsSidebar = () => {
     )
 }
 
-export default FoundationsSidebar
+export default BrandSidebar

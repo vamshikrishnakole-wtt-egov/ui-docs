@@ -1,9 +1,10 @@
 import React from "react";
 import "../../App.css"
+import Card from "../common/Card";
 
 const ComponentsCard = (props) => {
   return (
-    <div className="custom-shadow">
+    <Card>
           <div className="px-4 py-8">
             <div className="pt-2">
               <img src={props.Image} alt="" />
@@ -13,7 +14,7 @@ const ComponentsCard = (props) => {
               <p className="md:text-xs lg:text-sm 2xl:text-base">{props.para}</p>
             </div>
           </div>
-    </div>
+    </Card>
   );
 };
 

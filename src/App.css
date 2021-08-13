@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
   font-family: 'Roboto', sans-serif;
+  background-color: #FFFFFF;
 }
 h1, h2, h3, h4, h5, h6{
   color: #0B0C0C;
