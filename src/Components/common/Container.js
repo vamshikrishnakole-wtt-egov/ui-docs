@@ -2,7 +2,7 @@ import React from 'react'
 
 const Container = (props) => {
     return (
-        <div className="container xl:px-24 mx-auto px-4">
+        <div className="container xl:px-16 px-4 mx-auto">
             {props.children}
         </div>
     )

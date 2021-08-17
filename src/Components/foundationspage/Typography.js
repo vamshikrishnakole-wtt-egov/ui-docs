@@ -1,8 +1,41 @@
-import { Card, CardCaption, CardHeader, CardLabel, CardLabelDesc, CardLabelError, CardSectionHeader, CardText, CardTextButton, Header, InputCard } from "@egovernments/digit-ui-react-components";
+import {
+  Card,
+  CardCaption,
+  CardHeader,
+  CardLabel,
+  CardLabelDesc,
+  CardLabelError,
+  CardSectionHeader,
+  CardText,
+  CardTextButton,
+  Header,
+  InputCard,
+  LinkLabel,
+  // MultiSelectDropdown,
+} from "@egovernments/digit-ui-react-components";
 import React from "react";
 import { desktopData, mobileData } from "./TypographyItem";
 
 const Typography = () => {
+  // const [showOptions, setShowOptions] = useState(false)
+  // const handleClick = ()=>{
+  //   console.log("Multi Link")
+  // }
+  // const dowloadOptions =[
+  //   {
+  //     label : "This is multilink 1",
+  //     onclick : handleClick
+  //   },
+  //   {
+  //     label : "This is multilink 2",
+  //     onclick : handleClick
+  //   },
+  //   {
+  //     label : "This is multilink 3",
+  //     onclick : handleClick
+  //   }
+  // ]
+
   return (
     <div className="md:w-5/6 w-full mb-60">
       <div className="pb-2">
@@ -131,20 +164,42 @@ const Typography = () => {
         </ul>
       </div>
       {/* New Card Component start here */}
-        <Header>All Card Component is here</Header>
+      <Header>All Card Component is here</Header>
       <div className="pb-4">
-          <Card>
+        <Card>
           <CardHeader>Card Header</CardHeader>
-            <CardText>Card Text</CardText>
-            <CardLabelDesc>Card Label Desc</CardLabelDesc>
-            <CardCaption>Card Caption</CardCaption>
-            <CardLabelError>Card Label Error</CardLabelError>
-            <CardLabel>Card Label</CardLabel>
-            <CardSectionHeader>Card Section Header</CardSectionHeader>
-            <CardTextButton>Card Text Button</CardTextButton>
-            {/* <CardSubHeader>Card sub Header</CardSubHeader> */}
-            <InputCard>Input Card</InputCard>
-          </Card>
+          <CardText>Card Text</CardText>
+          <CardLabelDesc>Card Label Desc</CardLabelDesc>
+          <CardCaption>Card Caption</CardCaption>
+          <CardLabelError>Card Label Error</CardLabelError>
+          <CardLabel>Card Label</CardLabel>
+          <CardSectionHeader>Card Section Header</CardSectionHeader>
+          <CardTextButton>Card Text Button</CardTextButton>
+          {/* <CardSubHeader>Card sub Header</CardSubHeader> */}
+          <InputCard>Input Card</InputCard>
+        </Card>
+      </div>
+      <div className="pb-4">
+      <Header>Link Label</Header>
+        <LinkLabel>This is Link Label</LinkLabel>
+      </div>
+      <div className="pb-4">
+      <Header>MultiLink</Header>
+      {/* <MultiLink
+          className="multilinkWrapper"
+          displayOptions={showOptions}
+          options={dowloadOptions}
+        /> */}
+      </div>
+      <div className="pb-4">
+      <Header>Multi Selector</Header>
+      {/* <MultiSelectDropdown
+              className="form-field"
+              isMandatory={true}
+              defaultUnit="Selected"
+              options="Hello"
+              optionsKey="name"
+            /> */}
       </div>
     </div>
   );

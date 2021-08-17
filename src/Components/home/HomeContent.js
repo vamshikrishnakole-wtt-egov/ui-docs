@@ -15,6 +15,8 @@ const Data = [
     heading: "Brand",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...",
     linkText: "Explore our Brand",
+    imgWidth : '64px',
+    link : '/brand'
   },
   {
     id: 2,
@@ -22,6 +24,8 @@ const Data = [
     heading: "Foundations",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...",
     linkText: "Explore our Foundations",
+    imgWidth : '49px',
+    link : '/foundations'
   },
   {
     id: 3,
@@ -29,6 +33,8 @@ const Data = [
     heading: "Components",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...",
     linkText: "Explore our Components",
+    imgWidth : '64px',
+    link : '/components'
   },
   {
     id: 4,
@@ -36,6 +42,8 @@ const Data = [
     heading: "Content",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...",
     linkText: "Explore our Content",
+    imgWidth : '48px',
+    link : '/content'
   },
   {
     id: 5,
@@ -43,6 +51,8 @@ const Data = [
     heading: "Patterns",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...",
     linkText: "Explore our Patterns",
+    imgWidth : '53px',
+    link : '/patterns'
   },
   {
     id: 6,
@@ -50,6 +60,8 @@ const Data = [
     heading: "Resources",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...",
     linkText: "Explore our Resources",
+    imgWidth : '53px',
+    link : '/resources'
   },
 ];
 
@@ -65,6 +77,8 @@ const HomeContent = () => {
               heading={item.heading}
               text={item.text}
               linkContent={item.linkText}
+              link ={item.link}
+              imgWidth = {{width : item.imgWidth}}
             />
           );
         })}

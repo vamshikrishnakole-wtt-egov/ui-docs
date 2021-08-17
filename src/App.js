@@ -18,6 +18,11 @@ import ToastMessagePage from "./Pages/components/ToastMessagePage";
 import CardsPage from "./Pages/components/CardsPage";
 import BannerPage from "./Pages/components/BannerPage";
 import BreadCrumbsPage from "./Pages/components/BreadCrumbsPage";
+import RatingPage from "./Pages/components/RatingPage";
+import ImageViewerPage from "./Pages/components/ImageViewerPage";
+import NumbersPage from "./Pages/components/NumbersPage";
+import DropDownsPage from "./Pages/components/DropDownsPage";
+import UploadFilesPage from "./Pages/components/UploadFilesPage";
 
 // import { Body, TopBar } from "@egov/digit-ui-react-components"; // for component use
 
@@ -64,6 +69,21 @@ function App() {
           </Route>
           <Route exact path="/components/breadcrumbs">
             <BreadCrumbsPage />
+          </Route>
+          <Route exact path="/components/ratings">
+            <RatingPage />
+          </Route>
+          <Route exact path="/components/image-viewer">
+            <ImageViewerPage />
+          </Route>
+          <Route exact path="/components/number">
+            <NumbersPage />
+          </Route>
+          <Route exact path="/components/drop-down">
+            <DropDownsPage />
+          </Route>
+          <Route exact path="/components/upload-file">
+            <UploadFilesPage />
           </Route>
           <Route exact path="/foundations">
             <Foundations />

@@ -45,9 +45,34 @@ const SidebarItem =[
         linkpath : '/components/cards'
     },
     {
-        id : 9,
+        id : 10,
         item : 'Bread Crumbs',
         linkpath : '/components/breadcrumbs'
+    },
+    {
+        id : 11,
+        item : 'Ratings',
+        linkpath : '/components/ratings'
+    },
+    {
+        id : 12,
+        item : 'Image Viewer',
+        linkpath : '/components/image-viewer'
+    },
+    {
+        id : 13,
+        item : 'Number',
+        linkpath : '/components/number'
+    },
+    {
+        id : 14,
+        item : 'Drop Down',
+        linkpath : '/components/drop-down'
+    },
+    {
+        id : 15,
+        item : 'Upload File',
+        linkpath : '/components/upload-file'
     },
 ]
 

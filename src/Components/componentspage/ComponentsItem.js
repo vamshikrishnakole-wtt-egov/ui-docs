@@ -17,6 +17,7 @@ import ComponentsImg14 from "../../assets/img/components/14.png";
 import ComponentsImg15 from "../../assets/img/components/15.png";
 import ComponentsImg16 from "../../assets/img/components/16.png";
 import ComponentsImg17 from "../../assets/img/components/17.png";
+import { Header } from "@egovernments/digit-ui-react-components";
 
 const Data = [
   {
@@ -24,102 +25,132 @@ const Data = [
     Image: ComponentsImg1,
     heading: "Header",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    linkContent : 'Explore',
+    linkpath : '/components/header'
   },
   {
     id: 2,
     Image: ComponentsImg2,
     heading: "Back Link",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    linkContent : 'Explore',
+    linkpath : '/components/button'
+    
   },
   {
     id: 3,
     Image: ComponentsImg3,
     heading: "Bread Crumbs",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    linkContent : 'Explore',
+    linkpath : '/components/breadcrumbs'
   },
   {
     id: 4,
     Image: ComponentsImg4,
     heading: "Buttons",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    linkContent : 'Explore',
+    linkpath : '/components/button'
   },
   {
     id: 5,
     Image: ComponentsImg5,
     heading: "Checkbox",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    linkContent : 'Explore',
+    linkpath : '/components/checkbox'
   },
   {
     id: 6,
     Image: ComponentsImg6,
     heading: "Panel",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    linkContent : 'Explore',
+
   },
   {
     id: 7,
     Image: ComponentsImg7,
     heading: "Radio",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    linkContent : 'Explore',
+    linkpath : '/components/radio'
   },
   {
     id: 8,
     Image: ComponentsImg8,
     heading: "Select",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    linkContent : 'Explore'
   },
   {
     id: 9,
     Image: ComponentsImg9,
     heading: "Text Input",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    linkContent : 'Explore',
+    linkpath : '/components/text-input'
   },
   {
     id: 10,
     Image: ComponentsImg10,
     heading: "Warning Text",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    linkContent : 'Explore',
+
   },
   {
     id: 11,
     Image: ComponentsImg11,
     heading: "Sidenav",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    linkContent : 'Explore'
   },
   {
     id: 12,
     Image: ComponentsImg12,
     heading: "Cards",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    linkContent : 'Explore',
+    linkpath : '/components/cards'
   },
   {
     id: 13,
     Image: ComponentsImg13,
     heading: "Tooltip",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    linkContent : 'Explore'
   },
   {
     id: 14,
     Image: ComponentsImg14,
     heading: "Badge",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    linkContent : 'Explore'
   },
   {
     id: 15,
     Image: ComponentsImg15,
     heading: "Chip",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    linkContent : 'Explore'
   },
   {
     id: 16,
     Image: ComponentsImg16,
     heading: "Toast",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    linkContent : 'Explore',
+    linkpath : '/components/toast-message'
   },
   {
     id: 17,
     Image: ComponentsImg17,
     heading: "Popup",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    linkContent : 'Explore',
+    linkpath : '/components/toast-message'
   },
 ];
 
@@ -128,10 +159,8 @@ const ComponentsItem = () => {
     <>
       <div className="md:w-5/6 w-full mb-60">
         <div className="pb-2">
-          <h2 className="2xl:text-3xl xl:text-2xl sm:text-xl font-bold">
-            Components
-          </h2>
-          <p className="md:text-xs lg:text-sm 2xl:text-base">
+          <Header>Components</Header>
+          <p className="md:text-xs lg:text-sm 2xl:text-base py-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -148,6 +177,8 @@ const ComponentsItem = () => {
                 heading={item.heading}
                 para={item.para}
                 key={item.id}
+                linkContent ={item.linkContent}
+                linkpath ={item.linkpath && item.linkpath}
               />
             );
           })}

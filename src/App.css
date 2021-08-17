@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
   font-family: 'Roboto', sans-serif;
-  background-color: #FFFFFF;
+  background-color: #F6FBFF;
 }
 h1, h2, h3, h4, h5, h6{
   color: #0B0C0C;
@@ -48,6 +48,12 @@ p , li{
   }
 }
 
+.navbar-logo{
+  width: 132px;
+}
+.home_banner{
+  width: 537px;
+}
 /* Components and sidebar */
 .components_item{
   width: calc(100% - 14rem);
@@ -71,5 +77,11 @@ p , li{
   height: auto;
   background-color: red;
   color: yellow;
+}
+@media screen and (max-width: 768px){
+  .components_item{
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
 }
 /* Components and sidebar */

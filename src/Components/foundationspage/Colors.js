@@ -1,3 +1,4 @@
+import { Header } from "@egovernments/digit-ui-react-components";
 import React from "react";
 import colorsItem from "./ColorsItem";
 
@@ -5,9 +6,7 @@ const Colors = () => {
   return (
     <div className="md:w-5/6 w-full mb-60">
       <div className="pb-2">
-        <h2 className="2xl:text-3xl xl:text-2xl sm:text-xl font-bold">
-          Colors
-        </h2>
+        <Header>Colors</Header>
       </div>
       <div className="pb-4">
         <h2 className="sm:text-xl font-bold">Overview</h2>

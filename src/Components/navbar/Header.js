@@ -14,7 +14,7 @@ export default function Header({ fixed }) {
       <div className="lg:flex items-center justify-between block">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <Link to="/">
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" className="navbar-logo" />
           </Link>
           <button
             className="text-gray-600 cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded block lg:hidden outline-none focus:outline-none"

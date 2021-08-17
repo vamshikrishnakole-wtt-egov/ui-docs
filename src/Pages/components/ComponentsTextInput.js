@@ -1,11 +1,11 @@
 import React from "react";
 import ComponentsPageItem from "../../Components/common/ComponentsPageItem";
-import TextInput from "../../Components/componentspage/TextInput";
+import TextInputs from "../../Components/componentspage/TextInput";
 
 const ComponentsTextInput = () => {
   return (
     <ComponentsPageItem>
-      <TextInput  />
+      <TextInputs  />
     </ComponentsPageItem>
   ); 
 };

@@ -25,6 +25,14 @@ const BreadCrumbs = () => {
       <div className="pb-2">
         <Header>Bread Crumbs</Header>
       </div>
+      {/* <Dropdown
+          option="Options"
+          selected={languages.find((language) => language.value === selectedLanguage)}
+          optionKey={"label"}
+          select={handleChangeLanguage}
+          freeze={true}
+          customSelector={<label className="cp">{languages.find((language) => language.value === selected).label}</label>}
+        /> */}
       <div className="pb-4"> 
         <h2 className="sm:text-xl font-bold">Overview</h2>
         <p className="md:text-xs pb-2 lg:text-sm 2xl:text-base">

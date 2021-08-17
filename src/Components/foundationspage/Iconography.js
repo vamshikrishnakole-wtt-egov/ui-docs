@@ -8,15 +8,14 @@ import {
   DownloadIcon,
   Ellipsis,
   SearchIconSvg,
-} from "@egovernments/digit-ui-react-components"
+  Header,
+} from "@egovernments/digit-ui-react-components";
 
 const Iconography = () => {
   return (
     <div className="md:w-5/6 w-full mb-60">
       <div className="pb-2">
-        <h2 className="2xl:text-3xl xl:text-2xl sm:text-xl font-bold">
-        Iconography
-        </h2>
+        <Header>Iconography</Header>
       </div>
       <div className="pb-4">
         <h2 className="sm:text-xl font-bold">Overview</h2>
@@ -27,20 +26,19 @@ const Iconography = () => {
         </p>
       </div>
       <div className="grid grid-cols-2 gap-4">
-          <div className="py-2">
-            <div className="grid grid-cols-10">
-              <AnnouncementIcon />
-              <ReceiptIcon />
-              <ArrowLeft />
-              <ArrowDown />
-              <DownloadIcon />
-              <Ellipsis />
-            </div>
-          </div>
+        <div className="py-2">
           <div className="grid grid-cols-10">
-            <SearchIconSvg />
-            
+            <AnnouncementIcon />
+            <ReceiptIcon />
+            <ArrowLeft />
+            <ArrowDown />
+            <DownloadIcon />
+            <Ellipsis />
           </div>
+        </div>
+        <div className="grid grid-cols-10">
+          <SearchIconSvg />
+        </div>
       </div>
     </div>
   );
