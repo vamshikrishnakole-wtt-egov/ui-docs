@@ -23,6 +23,13 @@ import ImageViewerPage from "./Pages/components/ImageViewerPage";
 import NumbersPage from "./Pages/components/NumbersPage";
 import DropDownsPage from "./Pages/components/DropDownsPage";
 import UploadFilesPage from "./Pages/components/UploadFilesPage";
+import MissionPage from "./Pages/brand/MissionPage";
+import PersonalityPage from "./Pages/brand/PersonalityPage";
+import PromisePage from "./Pages/brand/PromisePage";
+import ValuesPage from "./Pages/brand/ValuesPage";
+import ContentPage from "./Pages/content/ContentPage";
+import PatternsPage from "./Pages/patterns/PatternsPage";
+import ResourcesPage from "./Pages/resources/ResourcesPage";
 
 // import { Body, TopBar } from "@egov/digit-ui-react-components"; // for component use
 
@@ -99,6 +106,27 @@ function App() {
           </Route>
           <Route exact path="/brand">
             <Brand />
+          </Route>
+          <Route exact path="/brand/mission">
+            <MissionPage />
+          </Route>
+          <Route exact path="/brand/personality">
+            <PersonalityPage />
+          </Route>
+          <Route exact path="/brand/promise">
+            <PromisePage />
+          </Route>
+          <Route exact path="/brand/values">
+            <ValuesPage />
+          </Route>
+          <Route exact path="/content">
+            <ContentPage />
+          </Route>
+          <Route exact path="/patterns">
+            <PatternsPage />
+          </Route>
+          <Route exact path="/resources">
+            <ResourcesPage />
           </Route>
         </Switch>
       </Router>

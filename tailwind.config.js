@@ -23,7 +23,8 @@ module.exports = {
       'white' : '#FFFFFF',
       'border' : '#F47738',
       'input_border' : '#505A5F',
-      'text_input_code' : '#0B4B66'
+      'text_input_code' : '#0B4B66',
+      'codebg' : "#FAFAFA"
     },
     extend: {},
   },

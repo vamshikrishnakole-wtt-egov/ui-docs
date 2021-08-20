@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import ExportIcon from "../../assets/img/Vector.png";
-import CopyIcon from "../../assets/img/copyIcon.png";
+// import ExportIcon from "../../assets/img/Vector.png";
+// import CopyIcon from "../../assets/img/copyIcon.png";
 import {
   Card,
   Header,
@@ -9,7 +9,6 @@ import {
 } from "@egovernments/digit-ui-react-components";
 
 const TextInputs = () => {
-  const [name, setName] = useState(false);
   const [inputName, setInputName] = useState("");
   const [number, setNumber] = useState(false);
   const [errorCode, setErrorCode] = useState(false);
@@ -22,7 +21,6 @@ const TextInputs = () => {
         <Header>Text Input</Header>
         <Card
           className="px-3 py-5 cursor-pointer"
-          onClick={() => setName(!name)}
         >
           <form>
             <div className="flex flex-col">
@@ -34,8 +32,7 @@ const TextInputs = () => {
               />
             </div>
           </form>
-          {name && (
-            <div className="py-4 flex justify-between items-start">
+            <div className="py-4 flex justify-between items-start bg-codebg">
               <div className="text-text_input_code">
                 <p className="text-text_input_code py-2 text-xs">
                   <span className="text-banner_bg font-bold">import</span>
@@ -49,12 +46,11 @@ const TextInputs = () => {
                 <p className="text-text_input_code py-2 text-xs">{`return <Textfield name="basic" aria-label="default text field" />;`}</p>
                 <p className="text-text_input_code py-2 text-xs">{`}`}</p>
               </div>
-              <div className="flex items-center">
+              {/* <div className="flex items-center">
                 <img src={ExportIcon} alt="" className="pr-4" />
                 <img src={CopyIcon} alt="" />
-              </div>
+              </div> */}
             </div>
-          )}
         </Card>
       </div>
       <div className="content_main">
@@ -137,8 +133,7 @@ const TextInputs = () => {
               </small>
             </div>
           </form>
-          {number && (
-            <div className="py-4 flex justify-between items-start">
+            <div className="py-4 flex justify-between items-start bg-codebg">
               <div className="text-text_input_code">
                 <p className="text-text_input_code py-2 text-xs">
                   <span className="text-banner_bg font-bold">import</span>
@@ -152,12 +147,11 @@ const TextInputs = () => {
                 <p className="text-text_input_code py-2 text-xs">{`return <Textfield name="basic" aria-label="default text field" />;`}</p>
                 <p className="text-text_input_code py-2 text-xs">{`}`}</p>
               </div>
-              <div className="flex items-center">
+              {/* <div className="flex items-center">
                 <img src={ExportIcon} alt="" className="pr-4" />
                 <img src={CopyIcon} alt="" />
-              </div>
+              </div> */}
             </div>
-          )}
         </Card>
         <div className="sm:w-3/5 w-full py-4">
           <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">
@@ -202,27 +196,8 @@ const TextInputs = () => {
               </small>
             </div>
           </form>
-          {errorCode && (
-            <div className="py-4 flex justify-between items-start">
+            <div className="py-4 flex justify-between items-start bg-codebg">
               <div className="text-text_input_code">
-                {/* <p>
-              {`{% from "govuk/components/input/macro.njk" import govukInput %} 
-                  {{ govukInput({
-                    label: {
-                      text: "What is the name of the event?",
-                      classes: "govuk-label--l",
-                      isPageHeading: true
-                    },
-                    id: "event-name",
-                    name: "event-name",
-                    hint: {
-                      text: "The name you’ll use on promotional material."
-                    },
-                    errorMessage: {
-                      text: "Enter an event name"
-                    }
-                  }) }}`} 
-            </p> */}
                 <p className="text-text_input_code py-2 pb-4 text-xs">{`{% from "govuk/components/input/macro.njk" import govukInput %}`}</p>
                 <p className="text-text_input_code text-xs">{`{{ govukInput({`}</p>
                 <p className="text-text_input_code text-xs">{`label: {`}</p>
@@ -246,12 +221,11 @@ const TextInputs = () => {
                 <p className="text-text_input_code text-xs">{`}`}</p>
                 <p className="text-text_input_code text-xs">{`}) }}`}</p>
               </div>
-              <div className="flex items-center">
+              {/* <div className="flex items-center">
                 <img src={ExportIcon} alt="" className="pr-4" />
                 <img src={CopyIcon} alt="" />
-              </div>
+              </div> */}
             </div>
-          )}
         </Card>
         <div className="sm:w-3/5 w-full py-4">
           <p className="2xl:text-lg sm:text-sm">

@@ -57,7 +57,7 @@ const ImageViewers = () => {
       <div className="pb-4">
         <h2 className="sm:text-xl font-bold">Overview</h2>
         <p className="md:text-xs lg:text-sm 2xl:text-base">
-          {`Lorem ipsum <DisplayPhotos srcs={Photots.map(img=>img.Images)} onClick={handleDisplayPhotos} /> dolor sit, amet consectetur adipisicing elit. Repudiandae delectus pariatur doloremque a accusamus debitis deleniti facilis ex non nobis neque quis sunt quam molestiae iusto molestias dignissimos, dolorem fugit.`}
+          {`Lorem ipsum <DisplayPhotos srcs={Photots.map(img=> img.Images)} onClick={handleDisplayPhotos} /> dolor sit, amet consectetur adipisicing elit. Repudiandae delectus pariatur doloremque a accusamus debitis deleniti facilis ex non nobis neque quis sunt quam molestiae iusto molestias dignissimos, dolorem fugit.`}
         </p>
         <div className="py-2">
         <DisplayPhotos srcs={Photots.map(img=>img.Images)} onClick={handleDisplayPhotos} />

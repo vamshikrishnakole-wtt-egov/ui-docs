@@ -38,7 +38,7 @@ const DropDowns = () => {
       <div className="pb-4">
         <SectionalDropdown
           selected="selectedEmployee"
-          menuData={cityData.map((data) => data.city)}
+          menuData={cityData.map((data) => data.city) || []}
           displayKey="city"
           select={onSelectEmployee} 
         />

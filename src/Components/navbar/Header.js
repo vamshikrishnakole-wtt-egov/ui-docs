@@ -17,11 +17,14 @@ export default function Header({ fixed }) {
             <img src={logo} alt="logo" className="navbar-logo" />
           </Link>
           <button
-            className="text-gray-600 cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded block lg:hidden outline-none focus:outline-none"
+            className="text-border cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded block lg:hidden outline-none focus:outline-none"
             type="button"
             onClick={() => setNavbarOpen(!navbarOpen)}
           >
-            <i className="fa fa-bars"></i>
+            {!navbarOpen ? <i className="fa fa-bars"></i> : <i class="fas fa-times"></i>}
+            {/* <div className="w-8 h-1 bg-red-400 my-1.5" style={{display: navbarOpen && 'none'}}></div>
+            <div className="w-8 h-1 bg-red-400 my-1.5" style={{transform: navbarOpen && 'rotate(45deg)'}}></div>
+            <div className="w-8 h-1 bg-red-400 my-1.5" style={{transform: navbarOpen && 'rotate(-45deg)'}}></div> */}
           </button>
         </div>
         <div

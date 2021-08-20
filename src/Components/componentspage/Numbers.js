@@ -6,7 +6,10 @@ const Numbers = () => {
     // const handleMobileNumber =(e)=>{
     //     setNumber(e.target.value)
     // }
-    const [otp, setOtp] = useState(null)
+    const [otp, setOtp] = useState("");
+    const onOtpChange =(e)=>{
+      console.log(e.target.value)
+    }
   return (
     <div className="md:w-5/6 w-full mb-60">
       <div className="mb-4">
@@ -33,7 +36,7 @@ const Numbers = () => {
       </div>
       <form>
           <Label>Enter otp</Label>
-          <OTPInput length={6} onChange={(e)=>setOtp(e.target.value)} value={otp} />
+          <OTPInput length={6} onChange={onOtpChange} value={otp} />
       </form>
     </div>
   );
