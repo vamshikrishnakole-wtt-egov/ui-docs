@@ -6,17 +6,20 @@ import {
 import React from "react";
 
 const DropDowns = () => {
-  const cityData = [
-    {
-      city: "Lucknow",
-    },
-    {
-      city: "Lucknow",
-    },
-    {
-      city: "Lucknow",
-    },
-  ];
+  // const cityData = [
+  //   {
+  //     city: "Lucknow",
+  //   },
+  //   {
+  //     city: "Lucknow",
+  //   },
+  //   {
+  //     city: "Lucknow",
+  //   },
+  // ];
+
+ const cityData = [{heading:"head 1",options:[{city:"a"}]},{heading:"head 2",options:[{city:"b"}]}]
+ 
   const onSelectEmployee = () => {
     console.log("Hello");
   };
@@ -38,7 +41,7 @@ const DropDowns = () => {
       <div className="pb-4">
         <SectionalDropdown
           selected="selectedEmployee"
-          menuData={cityData.map((data) => data.city) || []}
+          menuData={cityData}
           displayKey="city"
           select={onSelectEmployee} 
         />

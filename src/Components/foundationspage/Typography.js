@@ -11,30 +11,31 @@ import {
   Header,
   InputCard,
   LinkLabel,
+  MultiLink
   // MultiSelectDropdown,
 } from "@egovernments/digit-ui-react-components";
-import React from "react";
+import React, { useState } from "react";
 import { desktopData, mobileData } from "./TypographyItem";
 
 const Typography = () => {
-  // const [showOptions, setShowOptions] = useState(false)
-  // const handleClick = ()=>{
-  //   console.log("Multi Link")
-  // }
-  // const dowloadOptions =[
-  //   {
-  //     label : "This is multilink 1",
-  //     onclick : handleClick
-  //   },
-  //   {
-  //     label : "This is multilink 2",
-  //     onclick : handleClick
-  //   },
-  //   {
-  //     label : "This is multilink 3",
-  //     onclick : handleClick
-  //   }
-  // ]
+  const [showOptions, setShowOptions] = useState(false)
+  const handleClick = ()=>{
+    console.log("Multi Link")
+  }
+  const dowloadOptions =[
+    {
+      label : "This is multilink 1",
+      onclick : handleClick
+    },
+    {
+      label : "This is multilink 2",
+      onclick : handleClick
+    },
+    {
+      label : "This is multilink 3",
+      onclick : handleClick
+    }
+  ]
 
   return (
     <div className="md:w-5/6 w-full mb-60">
