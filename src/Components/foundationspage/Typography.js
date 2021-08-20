@@ -185,11 +185,11 @@ const Typography = () => {
       </div>
       <div className="pb-4">
       <Header>MultiLink</Header>
-      {/* <MultiLink
+      <MultiLink
           className="multilinkWrapper"
           displayOptions={showOptions}
           options={dowloadOptions}
-        /> */}
+        />
       </div>
       <div className="pb-4">
       <Header>Multi Selector</Header>
