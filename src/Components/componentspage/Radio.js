@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Header, RadioButtons } from "@egovernments/digit-ui-react-components";
 
 const Radio = () => {
+  const [selectedOption, setSelectedOption] = useState();
     const name = ['hello', 'world']
 
-    const handleSelect =()=>{
-      console.log("Hello")
+    const handleSelect =(e)=>{
+      setSelectedOption(e)
     }
   return (
     <div className="md:w-5/6 w-full mb-60">
@@ -17,7 +18,7 @@ const Radio = () => {
         <p className="md:text-xs lg:text-sm 2xl:text-base">
           {`Lorem ipsum <RadioButtons options ={name} /> dolor sit, amet consectetur adipisicing elit. Repudiandae delectus pariatur doloremque a accusamus debitis deleniti facilis ex non nobis neque quis sunt quam molestiae iusto molestias dignissimos, dolorem fugit.`}
         </p>
-        <RadioButtons options ={name} onSelect={handleSelect} />
+        <RadioButtons options ={name} onSelect={handleSelect} selectedOption={selectedOption} />
       </div>
       <div className="pb-4">
         <h2 className="sm:text-xl font-bold">Guidelines</h2>

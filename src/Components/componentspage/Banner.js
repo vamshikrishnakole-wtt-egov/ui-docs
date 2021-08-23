@@ -1,4 +1,4 @@
-import { Header } from "@egovernments/digit-ui-react-components";
+import { Banner, Header } from "@egovernments/digit-ui-react-components";
 import React from "react";
 
 const Banners = () => {
@@ -15,7 +15,9 @@ const Banners = () => {
           ipsam, repellendus accusantium cumque nostrum id officia aliquam
           dolore vitae expedita adipisci animi.
         </p>
-        {/* <Banner
+      </div>
+      <div className="pb-4">
+        <Banner
           svg={
             <svg
               className="payment-svg"
@@ -34,7 +36,7 @@ const Banners = () => {
           message="CS_COMMON_PAYMENT_COMPLETE"
           info="CS_COMMON_RECIEPT_NO"
           successful={true}
-        /> */}
+        />
       </div>
       <div className="pb-4">
         <h2 className="sm:text-xl font-bold">Guidelines</h2>

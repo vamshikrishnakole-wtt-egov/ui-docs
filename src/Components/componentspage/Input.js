@@ -2,6 +2,7 @@ import {
   Header,
   KeyNote,
   Label,
+  TextArea,
   TextInput,
 } from "@egovernments/digit-ui-react-components";
 import React, { useState } from "react";
@@ -20,9 +21,11 @@ const InputComponents = () => {
       text: "This is Note key data 2",
     },
   ];
-  // const handleTextArea =()=>{
-  //   console.log("Hello")
-  // }
+
+  const handleTextArea = () => {
+    console.log("Hello");
+  };
+
   const handleChange = (e) => {
     setName(e.target.value);
     console.log(e.target.value);
@@ -54,7 +57,21 @@ const InputComponents = () => {
           </div>
         </form>
       </div>
-      {/* <TextArea name="textarea" onChange={handleTextArea} value="Text Area" /> */}
+      <div className="pb-2">
+        <Header>Text Area</Header>
+      </div>
+      <div className="pb-4">
+        <h2 className="sm:text-xl font-bold">Overview</h2>
+        <p className="md:text-xs lg:text-sm 2xl:text-base">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+          voluptates quaerat officiis architecto nam repudiandae veniam in
+          ipsam, repellendus accusantium cumque nostrum id officia aliquam
+          dolore vitae expedita adipisci animi.
+        </p>
+      </div>
+      <div className="pb-4">
+        <TextArea name="textarea" onChange={handleTextArea} />
+      </div>
       <div className="pb-4">
         <h2 className="sm:text-xl font-bold">Guidelines</h2>
         <p className="md:text-xs lg:text-sm 2xl:text-base">

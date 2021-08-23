@@ -1164,10 +1164,10 @@
   resolved "https://registry.npmjs.org/@csstools/normalize.css/-/normalize.css-10.1.0.tgz"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
-"@egovernments/digit-ui-react-components@^1.3.5":
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/@egovernments/digit-ui-react-components/-/digit-ui-react-components-1.3.5.tgz#6ac4b781c832750629c74fa268590a1f3c9ab421"
-  integrity sha512-/x0pb9TzLT4W4oOBuXMAcqfI+8zmYDCAvHhwhhYQQqqC3nrtyZP7HWVRIxUOgisey/viK4x8aIDFYPadVAD/vg==
+"@egovernments/digit-ui-react-components@^1.3.10":
+  version "1.3.10"
+  resolved "https://registry.yarnpkg.com/@egovernments/digit-ui-react-components/-/digit-ui-react-components-1.3.10.tgz#4d6dbb312c999b6cbe8e8d189a5a7d92485ddba4"
+  integrity sha512-HQ38OKYXBnnwC+krCs25vUEsDoh4fVz7W1wXsW7lVIj8rdt+1VLrpPmvv6WnJgUtkCadxTs09BnA8VQhVMzXCQ==
   dependencies:
     "@googlemaps/js-api-loader" "^1.11.1"
     react-hook-form "^6.7.0"

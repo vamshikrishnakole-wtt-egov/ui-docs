@@ -6,36 +6,39 @@ import {
   CardLabelDesc,
   CardLabelError,
   CardSectionHeader,
+  CardSubHeader,
   CardText,
   CardTextButton,
   Header,
   InputCard,
   LinkLabel,
-  MultiLink
-  // MultiSelectDropdown,
+  MultiLink,
+  MultiSelectDropdown,
 } from "@egovernments/digit-ui-react-components";
 import React, { useState } from "react";
 import { desktopData, mobileData } from "./TypographyItem";
 
 const Typography = () => {
-  const [showOptions, setShowOptions] = useState(false)
-  const handleClick = ()=>{
-    console.log("Multi Link")
-  }
-  const dowloadOptions =[
+  const [showOptions, setShowOptions] = useState(false);
+  const handleClick = () => {
+    setShowOptions(false);
+  };
+
+
+  const dowloadOptions = [
     {
-      label : "This is multilink 1",
-      onclick : handleClick
+      label: "This is multilink 1",
+      onclick: handleClick,
     },
     {
-      label : "This is multilink 2",
-      onclick : handleClick
+      label: "This is multilink 2",
+      onclick: handleClick,
     },
     {
-      label : "This is multilink 3",
-      onclick : handleClick
-    }
-  ]
+      label: "This is multilink 3",
+      onclick: handleClick,
+    },
+  ];
 
   return (
     <div className="md:w-5/6 w-full mb-60">
@@ -164,7 +167,9 @@ const Typography = () => {
           </li>
         </ul>
       </div>
+
       {/* New Card Component start here */}
+
       <Header>All Card Component is here</Header>
       <div className="pb-4">
         <Card>
@@ -176,31 +181,21 @@ const Typography = () => {
           <CardLabel>Card Label</CardLabel>
           <CardSectionHeader>Card Section Header</CardSectionHeader>
           <CardTextButton>Card Text Button</CardTextButton>
-          {/* <CardSubHeader>Card sub Header</CardSubHeader> */}
+          <CardSubHeader>Card sub Header</CardSubHeader>
           <InputCard>Input Card</InputCard>
         </Card>
       </div>
       <div className="pb-4">
-      <Header>Link Label</Header>
+        <Header>Link Label</Header>
         <LinkLabel>This is Link Label</LinkLabel>
       </div>
       <div className="pb-4">
-      <Header>MultiLink</Header>
-      <MultiLink
+        <Header>MultiLink</Header>
+        <MultiLink
           className="multilinkWrapper"
           displayOptions={showOptions}
           options={dowloadOptions}
         />
-      </div>
-      <div className="pb-4">
-      <Header>Multi Selector</Header>
-      {/* <MultiSelectDropdown
-              className="form-field"
-              isMandatory={true}
-              defaultUnit="Selected"
-              options="Hello"
-              optionsKey="name"
-            /> */}
       </div>
     </div>
   );
