@@ -26,7 +26,7 @@ const Data = [
     heading: "Header",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
     linkContent : 'Explore',
-    linkpath : '/components/header'
+    linkpath : '/ui-docs/components/header'
   },
   {
     id: 2,
@@ -34,7 +34,7 @@ const Data = [
     heading: "Back Link",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
     linkContent : 'Explore',
-    linkpath : '/components/button'
+    linkpath : '/ui-docs/components/button'
     
   },
   {
@@ -43,7 +43,7 @@ const Data = [
     heading: "Bread Crumbs",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
     linkContent : 'Explore',
-    linkpath : '/components/breadcrumbs'
+    linkpath : '/ui-docs/components/breadcrumbs'
   },
   {
     id: 4,
@@ -51,7 +51,7 @@ const Data = [
     heading: "Buttons",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
     linkContent : 'Explore',
-    linkpath : '/components/button'
+    linkpath : '/ui-docs/components/button'
   },
   {
     id: 5,
@@ -59,7 +59,7 @@ const Data = [
     heading: "Checkbox",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
     linkContent : 'Explore',
-    linkpath : '/components/checkbox'
+    linkpath : '/ui-docs/components/checkbox'
   },
   {
     id: 6,
@@ -75,7 +75,7 @@ const Data = [
     heading: "Radio",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
     linkContent : 'Explore',
-    linkpath : '/components/radio'
+    linkpath : '/ui-docs/components/radio'
   },
   {
     id: 8,
@@ -90,7 +90,7 @@ const Data = [
     heading: "Text Input",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
     linkContent : 'Explore',
-    linkpath : '/components/text-input'
+    linkpath : '/ui-docs/components/text-input'
   },
   {
     id: 10,
@@ -113,7 +113,7 @@ const Data = [
     heading: "Cards",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
     linkContent : 'Explore',
-    linkpath : '/components/cards'
+    linkpath : '/ui-docs/components/cards'
   },
   {
     id: 13,
@@ -142,7 +142,7 @@ const Data = [
     heading: "Toast",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
     linkContent : 'Explore',
-    linkpath : '/components/toast-message'
+    linkpath : '/ui-docs/components/toast-message'
   },
   {
     id: 17,
@@ -150,7 +150,7 @@ const Data = [
     heading: "Popup",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
     linkContent : 'Explore',
-    linkpath : '/components/toast-message'
+    linkpath : '/ui-docs/components/toast-message'
   },
 ];
 

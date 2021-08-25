@@ -13,7 +13,7 @@ export default function Header({ fixed }) {
     <Container>
       <div className="lg:flex items-center justify-between block">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-          <Link to="/">
+          <Link to="/ui-docs">
             <img src={logo} alt="logo" className="navbar-logo" />
           </Link>
           <button

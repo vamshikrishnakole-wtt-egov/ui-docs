@@ -2,77 +2,77 @@ const SidebarItem =[
     {
         id : 1,
         item : 'Text Input',
-        linkpath : '/components/text-input'
+        linkpath : '/ui-docs/components/text-input'
     },
     {
         id : 2,
         item : 'Header',
-        linkpath : '/components/header'
+        linkpath : '/ui-docs/components/header'
     },
     {
         id : 3,
         item : 'Input',
-        linkpath : '/components/input'
+        linkpath : '/ui-docs/components/input'
     },
     {
         id : 4,
         item : 'Radio',
-        linkpath : '/components/radio'
+        linkpath : '/ui-docs/components/radio'
     },
     {
         id : 5,
         item : 'Checkbox',
-        linkpath : '/components/checkbox'
+        linkpath : '/ui-docs/components/checkbox'
     },
     {
         id : 6,
         item : 'Button',
-        linkpath : '/components/button'
+        linkpath : '/ui-docs/components/button'
     },
     {
         id : 7,
         item : 'Banner',
-        linkpath : '/components/banner'
+        linkpath : '/ui-docs/components/banner'
     },
     {
         id : 8,
         item : 'Toast Messsage',
-        linkpath : '/components/toast-message'
+        linkpath : '/ui-docs/components/toast-message'
     },
     {
         id : 9,
         item : 'Cards',
-        linkpath : '/components/cards'
+        linkpath : '/ui-docs/components/cards'
     },
     {
         id : 10,
         item : 'Bread Crumbs',
-        linkpath : '/components/breadcrumbs'
+        linkpath : '/ui-docs/components/breadcrumbs'
     },
     {
         id : 11,
         item : 'Ratings',
-        linkpath : '/components/ratings'
+        linkpath : '/ui-docs/components/ratings'
     },
     {
         id : 12,
         item : 'Image Viewer',
-        linkpath : '/components/image-viewer'
+        linkpath : '/ui-docs/components/image-viewer'
     },
     {
         id : 13,
         item : 'Number',
-        linkpath : '/components/number'
+        linkpath : '/ui-docs/components/number'
     },
     {
         id : 14,
         item : 'Drop Down',
-        linkpath : '/components/drop-down'
+        linkpath : '/ui-docs/components/drop-down'
     },
     {
         id : 15,
         item : 'Upload File',
-        linkpath : '/components/upload-file'
+        linkpath : '/ui-docs/components/upload-file'
     },
 ]
 

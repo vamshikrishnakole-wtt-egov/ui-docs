@@ -2,32 +2,32 @@ const MenuItem =[
     {
         id : 1,
         item : "Brand",
-        link : "/brand"
+        link : "brand"
     },
     {
         id : 2,
         item : "Foundations",
-        link : "/foundations"
+        link : "foundations"
     },
     {
         id : 3,
         item : "Components",
-        link : "/components"
+        link : "components"
     },
     {
         id : 4,
         item : "Content",
-        link : "/content"
+        link : "content"
     },
     {
         id : 5,
         item : "Patterns",
-        link : "/patterns"
+        link : "patterns"
     },
     {
         id : 6,
         item : "Resources",
-        link : "/resources"
+        link : "resources"
     },
 ]
 
