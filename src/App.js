@@ -30,6 +30,7 @@ import ValuesPage from "./Pages/brand/ValuesPage";
 import ContentPage from "./Pages/content/ContentPage";
 import PatternsPage from "./Pages/patterns/PatternsPage";
 import ResourcesPage from "./Pages/resources/ResourcesPage";
+import BackLinksPage from "./Pages/components/BackLinksPage";
 
 // import { Body, TopBar } from "@egov/digit-ui-react-components"; // for component use
 
@@ -91,6 +92,9 @@ function App() {
           </Route>
           <Route exact path="/components/upload-file">
             <UploadFilesPage />
+          </Route>
+          <Route exact path="/components/backlink">
+            <BackLinksPage />
           </Route>
           <Route exact path="/foundations">
             <Foundations />
