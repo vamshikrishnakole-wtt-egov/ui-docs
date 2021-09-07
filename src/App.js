@@ -42,94 +42,94 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/">
+          <Route path="/">
             <Home />
           </Route>
-          <Route exact path="/components">
+          <Route path="/components">
             <Components />
           </Route>
-          <Route exact path="/components/text-input">
+          <Route path="/components/text-input">
             <ComponentsTextInput />
           </Route>
-          <Route exact path="/components/header">
+          <Route path="/components/header">
             <ComponentsHeader />
           </Route>
-          <Route exact path="/components/input">
+          <Route path="/components/input">
             <Input />
           </Route>
-          <Route exact path="/components/radio">
+          <Route path="/components/radio">
             <RadioPage />
           </Route>
-          <Route exact path="/components/checkbox">
+          <Route path="/components/checkbox">
             <CheckboxPage />
           </Route>
-          <Route exact path="/components/button">
+          <Route path="/components/button">
             <ButtonPage />
           </Route>
-          <Route exact path="/components/banner">
+          <Route path="/components/banner">
             <BannerPage />
           </Route>
-          <Route exact path="/components/toast-message">
+          <Route path="/components/toast-message">
             <ToastMessagePage />
           </Route>
-          <Route exact path="/components/cards">
+          <Route path="/components/cards">
             <CardsPage />
           </Route>
-          <Route exact path="/components/breadcrumbs">
+          <Route path="/components/breadcrumbs">
             <BreadCrumbsPage />
           </Route>
-          <Route exact path="/components/ratings">
+          <Route path="/components/ratings">
             <RatingPage />
           </Route>
-          <Route exact path="/components/image-viewer">
+          <Route path="/components/image-viewer">
             <ImageViewerPage />
           </Route>
-          <Route exact path="/components/number">
+          <Route path="/components/number">
             <NumbersPage />
           </Route>
-          <Route exact path="/components/drop-down">
+          <Route path="/components/drop-down">
             <DropDownsPage />
           </Route>
-          <Route exact path="/components/upload-file">
+          <Route path="/components/upload-file">
             <UploadFilesPage />
           </Route>
           <Route exact path="/components/backlink">
             <BackLinksPage />
           </Route>
-          <Route exact path="/foundations">
+          <Route path="/foundations">
             <Foundations />
           </Route>
-          <Route exact path="/foundations/colors">
+          <Route path="/foundations/colors">
             <FoundationsColor />
           </Route>
-          <Route exact path="/foundations/typography">
+          <Route path="/foundations/typography">
             <FoundationsTypography />
           </Route>
-          <Route exact path="/foundations/iconography">
+          <Route path="/foundations/iconography">
             <FoundationsIconography />
           </Route>
-          <Route exact path="/brand">
+          <Route path="/brand">
             <Brand />
           </Route>
-          <Route exact path="/brand/mission">
+          <Route path="/brand/mission">
             <MissionPage />
           </Route>
-          <Route exact path="/brand/personality">
+          <Route path="/brand/personality">
             <PersonalityPage />
           </Route>
-          <Route exact path="/brand/promise">
+          <Route path="/brand/promise">
             <PromisePage />
           </Route>
-          <Route exact path="/brand/values">
+          <Route path="/brand/values">
             <ValuesPage />
           </Route>
-          <Route exact path="/content">
+          <Route path="/content">
             <ContentPage />
           </Route>
-          <Route exact path="/patterns">
+          <Route path="/patterns">
             <PatternsPage />
           </Route>
-          <Route exact path="/resources">
+          <Route path="/resources">
             <ResourcesPage />
           </Route>
         </Switch>
