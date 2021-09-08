@@ -9,10 +9,10 @@ const Footer = () => {
           <Link to="#" className="text-white">@Digitdesignsystem</Link>
         </li>
         <li className="py-1 sm:py-0">
-          <Link to="#" className="text-white">@Digitdesignsystem</Link>
+          <Link to="#" className="text-white">Trademark License</Link>
         </li>
         <li className="py-1 sm:py-0">
-          <Link to="#" className="text-white">@Digitdesignsystem</Link>
+          <Link to="#" className="text-white">Privacy</Link>
         </li>
       </ul>
     </footer>

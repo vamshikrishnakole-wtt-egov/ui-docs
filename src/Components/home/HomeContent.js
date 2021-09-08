@@ -13,7 +13,7 @@ const Data = [
     id: 1,
     BrandLogo: brandLogo,
     heading: "Brand",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...",
+    text: "Brand visualization is all about the consistent use of colours, patterns, and components.......",
     linkText: "Explore our Brand",
     imgWidth : '64px',
     link : '/brand'
@@ -22,7 +22,7 @@ const Data = [
     id: 2,
     BrandLogo: foundationLogo,
     heading: "Foundations",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...",
+    text: '"Keep it Simple" is the central theme guiding the DIGIT platform design principles....',
     linkText: "Explore our Foundations",
     imgWidth : '49px',
     link : '/foundations'
@@ -31,7 +31,7 @@ const Data = [
     id: 3,
     BrandLogo: componnetsLogo,
     heading: "Components",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...",
+    text: "A complete guide to use and apply the various visual components used on the DIGIT platform.....",
     linkText: "Explore our Components",
     imgWidth : '64px',
     link : '/components'
@@ -40,7 +40,7 @@ const Data = [
     id: 4,
     BrandLogo: contentLogo,
     heading: "Content",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...",
+    text: "Standardized content layouts, fonts, templates define the basic framework for .....",
     linkText: "Explore our Content",
     imgWidth : '48px',
     link : '/content'
@@ -49,7 +49,7 @@ const Data = [
     id: 5,
     BrandLogo: patternLogo,
     heading: "Patterns",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...",
+    text: "A deep dive into the patterns used across the platform, design solutions for defined....",
     linkText: "Explore our Patterns",
     imgWidth : '53px',
     link : '/patterns'
@@ -58,7 +58,7 @@ const Data = [
     id: 6,
     BrandLogo: resourcesLogo,
     heading: "Resources",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...",
+    text: "Access design resources, links, and media for standardized application design.....",
     linkText: "Explore our Resources",
     imgWidth : '53px',
     link : '/resources'

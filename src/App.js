@@ -30,6 +30,8 @@ import ValuesPage from "./Pages/brand/ValuesPage";
 import ContentPage from "./Pages/content/ContentPage";
 import PatternsPage from "./Pages/patterns/PatternsPage";
 import ResourcesPage from "./Pages/resources/ResourcesPage";
+import BackLinksPage from "./Pages/components/BackLinksPage";
+import ErrorMessagePage from "./Pages/components/ErrorMessagePage";
 
 // import { Body, TopBar } from "@egov/digit-ui-react-components"; // for component use
 

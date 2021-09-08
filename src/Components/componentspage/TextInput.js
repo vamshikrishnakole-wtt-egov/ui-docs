@@ -19,7 +19,7 @@ const TextInputs = () => {
     <div className="md:w-5/6 w-full mb-60">
       <div className="mb-4">
         <Header>Text Input</Header>
-        <Card
+        {/* <Card
           className="px-3 py-5 cursor-pointer"
         >
           <form>
@@ -46,192 +46,151 @@ const TextInputs = () => {
                 <p className="text-text_input_code py-2 text-xs">{`return <Textfield name="basic" aria-label="default text field" />;`}</p>
                 <p className="text-text_input_code py-2 text-xs">{`}`}</p>
               </div>
-              {/* <div className="flex items-center">
-                <img src={ExportIcon} alt="" className="pr-4" />
-                <img src={CopyIcon} alt="" />
-              </div> */}
             </div>
-        </Card>
+        </Card> */}
       </div>
       <div className="content_main">
         <div className="sm:w-3/5 w-full py-4">
           <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">
-            When to use this component
+            Overview
           </h3>
           <p className="2xl:text-lg sm:text-sm">
-            Use the text input component when you need to let users enter text
-            that’s no longer than a single line, such as their name or phone
-            number.
+            Text Input enables users to interact with the application through
+            content input and data. The component allows users to input
+            responses or data based on specific requirements.
+          </p>
+        </div>
+        <div className="sm:w-3/5 w-full py-4">
+          <h2 className="2xl:text-3xl xl:text-3xl md:text-2xl sm:text-lg font-bold">
+            Guidelines
+          </h2>
+          <p className="2xl:text-lg sm:text-sm">
+            This section outlines the application guidelines for Text Inputs.
           </p>
         </div>
         <div className="sm:w-3/5 w-full py-4">
           <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">
-            When not to use this component
+            When to Apply
           </h3>
           <p className="2xl:text-lg sm:text-sm">
-            Do not use the text input component if you need to let users enter
-            longer answers that might span multiple lines. In this case, you
-            should use the textarea component.
+            Use this Text Input component to enable users to enter short single
+            text content only. This includes capturing the user Phone Number or
+            Name.
           </p>
         </div>
         <div className="sm:w-3/5 w-full py-4">
           <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">
-            How it works
+            When not to Apply
           </h3>
           <p className="2xl:text-lg sm:text-sm">
-            All text inputs must have visible labels; placeholder text is not an
-            acceptable replacement for a label as it vanishes when users start
-            typing.
-          </p>
-          <p className="2xl:text-lg sm:text-sm py-3">
-            Labels should be aligned above the text input they refer to. They
-            should be short, direct and written in sentence case. Do not use
-            colons at the end of labels.
-          </p>
-          <p className="2xl:text-lg sm:text-sm py-3">
-            If you’re asking just one question per page as recommended, you can
-            set the contents of the <label /> as the page heading.{" "}
-          </p>
-          <p className="2xl:text-lg sm:text-sm py-3">
-            This is good practice as it means that users of screen readers will
-            only hear the contents once.
-          </p>
-          <p className="2xl:text-lg sm:text-sm py-3">
-            Read more about why and how to set legends as headings.
-          </p>
-          <p className="2xl:text-lg sm:text-sm py-3">
-            {" "}
-            There are 2 ways to use the text input component. You can use HTML
-            or, if you’re using Nunjucks or the GOV.UK Prototype Kit, you can
-            use the Nunjucks macro.
+            Do not use this component for multiple text line input. If the
+            inputs span multiple lines use the Text Area component.
           </p>
         </div>
         <div className="sm:w-3/5 w-full py-4">
+          <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">
+            How to Apply
+          </h3>
+          <ul className="list-outside list-disc pl-4">
+            <li className="py-2">
+              Input labels must be available to users on the interface to
+              provide space for text input.
+            </li>
+            <li className="py-2">
+              {" "}
+              Make sure the labels are positioned right above the text input
+              box.
+            </li>
+            <li className="py-2">
+              The label text must be precise and simple enough to ensure users
+              understand what is required as text input.
+            </li>
+            <li className="py-2">Do not use colons or dashes at the end of the label text.</li>
+            <li className="py-2">
+              Provide a page heading label to indicate what kind of input is
+              required from the users on the given page.{" "}
+            </li>
+            <li className="py-2">
+              Make sure the text input component aligns with the DIGIT brand
+              using the correct design styles
+            </li>
+          </ul>
+        </div>
+        <div className="sm:w-3/5 w-full py-4">
+          <h2 className="2xl:text-3xl xl:text-3xl md:text-2xl sm:text-lg font-bold pb-4">
+            Text Input Types
+          </h2>
           <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">
             Hint text
           </h3>
+        </div>
+        <Card className="px-3 py-5 cursor-pointer">
+          <form>
+            <div className="flex flex-col">
+              <div className="flex flex-col w-1/2">
+                <Label>Password</Label>
+                <TextInput
+                  className="text-base"
+                  onChange={handleChange}
+                  placeholder="+91 "
+                />
+              </div>
+              <small className="text-xs">
+                The password Must be atleast 8 characters long
+              </small>
+            </div>
+          </form>
+        </Card>
+        <div className="py-4">
           <p className="2xl:text-lg sm:text-sm">
-            Use hint text for help that’s relevant to the majority of users,
-            like how their information will be used, or where to find it.
+            Use hint text to give information to users on the kind of input
+            required and why should the user provide it. Make sure the help text
+            does not contain links or long sentences. Simple, concise and clear
+            hint text deliver the right message to users.
+          </p>
+        </div>
+        <div className="sm:w-3/5 w-full py-4">
+          <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">
+            Prefix and Suffix
+          </h3>
+          <p className="2xl:text-lg sm:text-sm">
+            Prefixes and suffixes can be used as symbols to indicate the type of
+            input required from users. For instance, the rupee prefix tells
+            users to enter any amount or the measurement in kg suffix tells
+            users to enter the specified weight or quantity details.
           </p>
         </div>
         <Card
           className="px-3 py-5 cursor-pointer"
-          onClick={() => setNumber(!number)}
         >
-          <form>
-            <div className="flex flex-col">
-              <div className="flex flex-col">
-                <TextInput
-                  className="text-base"
-                  onChange={handleChange}
-                  value={inputName}
-                />
-              </div>
-              <small className="text-xs">
-                The mobile number entered must be unique
-              </small>
-            </div>
-          </form>
-            <div className="py-4 flex justify-between items-start bg-codebg">
-              <div className="text-text_input_code">
-                <p className="text-text_input_code py-2 text-xs">
-                  <span className="text-banner_bg font-bold">import</span>
-                  {` React from 'react';`}
-                </p>
-                <p className="text-text_input_code py-2 text-xs">
-                  <span className="text-banner_bg font-bold">import</span>{" "}
-                  Textfield from '@atlaskit/textfield';
-                </p>
-                <p className="text-text_input_code py-2 text-xs">{`export default function TextFieldDefaultExample() {`}</p>
-                <p className="text-text_input_code py-2 text-xs">{`return <Textfield name="basic" aria-label="default text field" />;`}</p>
-                <p className="text-text_input_code py-2 text-xs">{`}`}</p>
-              </div>
-              {/* <div className="flex items-center">
-                <img src={ExportIcon} alt="" className="pr-4" />
-                <img src={CopyIcon} alt="" />
-              </div> */}
-            </div>
+          Card
         </Card>
         <div className="sm:w-3/5 w-full py-4">
           <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">
-            When not to use hint text
+          Error Messages
           </h3>
-          <p className="2xl:text-lg sm:text-sm">
-            Do not include links within hint text. While screen readers will
-            read out the link text when describing the field, they will not tell
-            users that the text is a link.
-          </p>
-        </div>
-        <div className="sm:w-3/5 w-full py-4">
-          <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">
-            Avoid links
-          </h3>
-          <p className="2xl:text-lg sm:text-sm">
-            Do not use long paragraphs and lists in hint text. Screen readers
-            read out the entire text when users interact with the form element.
-            This could frustrate users if the text is long.
-          </p>
-        </div>
-        <div className="sm:w-3/5 w-full py-4">
-          <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">
-            Error Messages
-          </h3>
-          <p className="2xl:text-lg sm:text-sm">
-            Error messages should be styled like this:
-          </p>
         </div>
         <Card
           className="px-3 py-5 cursor-pointer"
           onClick={() => setErrorCode(!errorCode)}
         >
           <form>
-            <div className="flex flex-col">
+            <div className="flex flex-col w-1/2">
               <TextInput
                 className="text-base border-red-400"
-                value="+91945746"
+                userType="text"
               />
               <small className="text-xs text-red-400">
-                The mobile number entered must be unique
+              Enter Name
               </small>
             </div>
           </form>
-            <div className="py-4 flex justify-between items-start bg-codebg">
-              <div className="text-text_input_code">
-                <p className="text-text_input_code py-2 pb-4 text-xs">{`{% from "govuk/components/input/macro.njk" import govukInput %}`}</p>
-                <p className="text-text_input_code text-xs">{`{{ govukInput({`}</p>
-                <p className="text-text_input_code text-xs">{`label: {`}</p>
-                <p className="text-text_input_code text-xs">
-                  text: "What is the name of the event?",
-                </p>
-                <p className="text-text_input_code text-xs">
-                  classes: "govuk-label--l",
-                </p>
-                <p className="text-text_input_code text-xs">
-                  isPageHeading: true
-                </p>
-                <p className="text-text_input_code text-xs">{`},`}</p>
-                <p className="text-text_input_code text-xs">{`id: "event-name",`}</p>
-                <p className="text-text_input_code text-xs">{`name: "event-name",`}</p>
-                <p className="text-text_input_code text-xs">{`hint: {`}</p>
-                <p className="text-text_input_code text-xs">{`text: "The name you’ll use on promotional material."`}</p>
-                <p className="text-text_input_code text-xs">{`},`}</p>
-                <p className="text-text_input_code text-xs">{`errorMessage: {`}</p>
-                <p className="text-text_input_code text-xs">{`text: "Enter an event name"`}</p>
-                <p className="text-text_input_code text-xs">{`}`}</p>
-                <p className="text-text_input_code text-xs">{`}) }}`}</p>
-              </div>
-              {/* <div className="flex items-center">
-                <img src={ExportIcon} alt="" className="pr-4" />
-                <img src={CopyIcon} alt="" />
-              </div> */}
-            </div>
-        </Card>
+          </Card>
         <div className="sm:w-3/5 w-full py-4">
-          <p className="2xl:text-lg sm:text-sm">
-            Make sure errors follow the guidance in error message and have
-            specific error messages for specific error states.
+          <p className="2xl:text-lg sm:text-sm pb-4">
+          Follow the text input specifications given below for showing error messages on the screen.
           </p>
+          <p className="2xl:text-lg sm:text-sm">Use the error message list below for specific error messages, styles, and formats.</p>
         </div>
       </div>
     </div>

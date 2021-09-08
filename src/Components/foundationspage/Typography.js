@@ -170,7 +170,7 @@ const Typography = () => {
 
       {/* New Card Component start here */}
 
-      <Header>All Card Component is here</Header>
+      {/* <Header>All Card Component is here</Header>
       <div className="pb-4">
         <Card>
           <CardHeader>Card Header</CardHeader>
@@ -196,7 +196,7 @@ const Typography = () => {
           displayOptions={showOptions}
           options={dowloadOptions}
         />
-      </div>
+      </div> */}
     </div>
   );
 };
