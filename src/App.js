@@ -31,6 +31,7 @@ import ContentPage from "./Pages/content/ContentPage";
 import PatternsPage from "./Pages/patterns/PatternsPage";
 import ResourcesPage from "./Pages/resources/ResourcesPage";
 import BackLinksPage from "./Pages/components/BackLinksPage";
+import ErrorMessagePage from "./Pages/components/ErrorMessagePage";
 
 // import { Body, TopBar } from "@egov/digit-ui-react-components"; // for component use
 
@@ -42,94 +43,97 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/components">
+          <Route exact path="/components">
             <Components />
           </Route>
-          <Route path="/components/text-input">
+          <Route exact path="/components/text-input">
             <ComponentsTextInput />
           </Route>
-          <Route path="/components/header">
+          <Route exact path="/components/header">
             <ComponentsHeader />
           </Route>
-          <Route path="/components/input">
+          <Route exact path="/components/input">
             <Input />
           </Route>
-          <Route path="/components/radio">
+          <Route exact path="/components/radio">
             <RadioPage />
           </Route>
-          <Route path="/components/checkbox">
+          <Route exact path="/components/checkbox">
             <CheckboxPage />
           </Route>
-          <Route path="/components/button">
+          <Route exact path="/components/button">
             <ButtonPage />
           </Route>
-          <Route path="/components/banner">
+          <Route exact path="/components/banner">
             <BannerPage />
           </Route>
-          <Route path="/components/toast-message">
+          <Route exact path="/components/toast-message">
             <ToastMessagePage />
           </Route>
-          <Route path="/components/cards">
+          <Route exact path="/components/cards">
             <CardsPage />
           </Route>
-          <Route path="/components/breadcrumbs">
+          <Route exact path="/components/breadcrumbs">
             <BreadCrumbsPage />
           </Route>
-          <Route path="/components/ratings">
+          <Route exact path="/components/ratings">
             <RatingPage />
           </Route>
-          <Route path="/components/image-viewer">
+          <Route exact path="/components/image-viewer">
             <ImageViewerPage />
           </Route>
-          <Route path="/components/number">
+          <Route exact path="/components/number">
             <NumbersPage />
           </Route>
-          <Route path="/components/drop-down">
+          <Route exact path="/components/drop-down">
             <DropDownsPage />
           </Route>
-          <Route path="/components/upload-file">
+          <Route exact path="/components/upload-file">
             <UploadFilesPage />
           </Route>
-          <Route exact path="/components/backlink">
+          <Route exact exact path="/components/backlink">
             <BackLinksPage />
           </Route>
-          <Route path="/foundations">
+          <Route exact exact path="/components/error-message">
+            <ErrorMessagePage />
+          </Route>
+          <Route exact path="/foundations">
             <Foundations />
           </Route>
-          <Route path="/foundations/colors">
+          <Route exact path="/foundations/colors">
             <FoundationsColor />
           </Route>
-          <Route path="/foundations/typography">
+          <Route exact path="/foundations/typography">
             <FoundationsTypography />
           </Route>
-          <Route path="/foundations/iconography">
+          <Route exact path="/foundations/iconography">
             <FoundationsIconography />
           </Route>
-          <Route path="/brand">
+          <Route exact path="/brand">
             <Brand />
           </Route>
-          <Route path="/brand/mission">
+          <Route exact path="/brand/mission">
             <MissionPage />
           </Route>
-          <Route path="/brand/personality">
+          <Route exact path="/brand/personality">
             <PersonalityPage />
           </Route>
-          <Route path="/brand/promise">
+          <Route exact path="/brand/promise">
             <PromisePage />
           </Route>
-          <Route path="/brand/values">
+          <Route exact path="/brand/values">
             <ValuesPage />
           </Route>
-          <Route path="/content">
+          <Route exact path="/content">
             <ContentPage />
           </Route>
-          <Route path="/patterns">
+          <Route exact path="/patterns">
             <PatternsPage />
           </Route>
-          <Route path="/resources">
+          <Route exact path="/resources">
             <ResourcesPage />
           </Route>
         </Switch>

@@ -24,7 +24,8 @@ module.exports = {
       'border' : '#F47738',
       'input_border' : '#505A5F',
       'text_input_code' : '#0B4B66',
-      'codebg' : "#FAFAFA"
+      'codebg' : "#FAFAFA",
+      'card_button_bg' : "#EEEEEE"
     },
     extend: {},
   },
