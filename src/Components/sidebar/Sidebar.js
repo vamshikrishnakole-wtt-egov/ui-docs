@@ -1,11 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import SidebarItem from "./SidebarItem";
+import SidebarData from "./SidebarData";
 
 const Sidebar = () => {
   return (
     <ul className="pt-4">
-      {SidebarItem.map((data) => {
+      {SidebarData.map((data) => {
         return (
           <li
             key={data.id}

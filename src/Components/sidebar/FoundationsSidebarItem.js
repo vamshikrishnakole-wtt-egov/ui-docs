@@ -2,17 +2,17 @@ const FoundationsSidebarItems =[
     {
         id : 1,
         item : 'Colors',
-        linkpath : '/foundations/colors'
+        linkpath : '/ui-docs/foundations/colors'
     },
     {
         id : 2,
         item : 'Typography',
-        linkpath : '/foundations/typography'
+        linkpath : '/ui-docs/foundations/typography'
     },
     {
         id : 3,
         item : 'Iconography',
-        linkpath : '/foundations/iconography'
+        linkpath : '/ui-docs/foundations/iconography'
     },
 ]
 

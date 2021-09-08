@@ -94,6 +94,12 @@ function App() {
           <Route exact path="/ui-docs/components/upload-file">
             <UploadFilesPage />
           </Route>
+          <Route exact path="/ui-docs/components/backlink">
+            <BackLinksPage />
+          </Route>
+          <Route exact path="/ui-docs/components/error-message">
+            <ErrorMessagePage />
+          </Route>
           <Route exact path="/ui-docs/foundations">
             <Foundations />
           </Route>

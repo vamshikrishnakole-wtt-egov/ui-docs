@@ -15,7 +15,7 @@ const FoundationsPage = () => {
       Image: ColorsIcon,
       para: "Color distinguishes our brand and helps us create consistent experiences across products.",
       linkItem: "Explore",
-      link: "/foundations/colors",
+      link: "/ui-docs/foundations/colors",
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ const FoundationsPage = () => {
       Image: TypoIcon,
       para: "Typography is our system of fonts. Each font conveys the appropriate sentiment to assist our users through each stage of their journey.",
       linkItem: "Explore",
-      link: "/foundations/typography",
+      link: "/ui-docs/foundations/typography",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const FoundationsPage = () => {
       Image: IconoIcon,
       para: "Icons are visual representations of commands, devices, directories, or common actions.",
       linkItem: "Explore",
-      link: "/foundations/iconography",
+      link: "/ui-docs/foundations/iconography",
     },
   ];
   return (

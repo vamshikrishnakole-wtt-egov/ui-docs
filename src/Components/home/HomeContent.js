@@ -16,7 +16,7 @@ const Data = [
     text: "Brand visualization is all about the consistent use of colours, patterns, and components.......",
     linkText: "Explore our Brand",
     imgWidth : '64px',
-    link : '/brand'
+    link : '/ui-docs/brand'
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const Data = [
     text: '"Keep it Simple" is the central theme guiding the DIGIT platform design principles....',
     linkText: "Explore our Foundations",
     imgWidth : '49px',
-    link : '/foundations'
+    link : '/ui-docs/foundations'
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const Data = [
     text: "A complete guide to use and apply the various visual components used on the DIGIT platform.....",
     linkText: "Explore our Components",
     imgWidth : '64px',
-    link : '/components'
+    link : '/ui-docs/components'
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const Data = [
     text: "Standardized content layouts, fonts, templates define the basic framework for .....",
     linkText: "Explore our Content",
     imgWidth : '48px',
-    link : '/content'
+    link : '/ui-docs/content'
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ const Data = [
     text: "A deep dive into the patterns used across the platform, design solutions for defined....",
     linkText: "Explore our Patterns",
     imgWidth : '53px',
-    link : '/patterns'
+    link : '/ui-docs/patterns'
   },
   {
     id: 6,
@@ -61,7 +61,7 @@ const Data = [
     text: "Access design resources, links, and media for standardized application design.....",
     linkText: "Explore our Resources",
     imgWidth : '53px',
-    link : '/resources'
+    link : '/ui-docs/resources'
   },
 ];
 

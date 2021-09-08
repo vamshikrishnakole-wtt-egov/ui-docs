@@ -2,22 +2,22 @@ const BrandSidebarItems =[
     {
         id : 1,
         item : 'Mission',
-        linkpath : '/brand/mission'
+        linkpath : '/ui-docs/brand/mission'
     },
     {
         id : 2,
         item : 'Personality',
-        linkpath : '/brand/personality'
+        linkpath : '/ui-docs/brand/personality'
     },
     {
         id : 3,
         item : 'Promise',
-        linkpath : '/brand/promise'
+        linkpath : '/ui-docs/brand/promise'
     },
     {
         id : 4,
         item : 'Values',
-        linkpath : '/brand/values'
+        linkpath : '/ui-docs/brand/values'
     },
 ]
 

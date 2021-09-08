@@ -24,133 +24,103 @@ const Data = [
     id: 1,
     Image: ComponentsImg1,
     heading: "Header",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    linkContent : 'Explore',
-    linkpath : '/ui-docs/components/header'
+    linkpath: "/ui-docs/components/header",
   },
   {
     id: 2,
     Image: ComponentsImg2,
     heading: "Back Link",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    linkContent : 'Explore',
-    linkpath : '/ui-docs/components/button'
-    
+    linkpath: "/ui-docs/components/backlink",
   },
   {
     id: 3,
     Image: ComponentsImg3,
     heading: "Bread Crumbs",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    linkContent : 'Explore',
-    linkpath : '/ui-docs/components/breadcrumbs'
+    linkpath: "/ui-docs/components/breadcrumbs",
   },
   {
     id: 4,
     Image: ComponentsImg4,
     heading: "Buttons",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    linkContent : 'Explore',
-    linkpath : '/ui-docs/components/button'
+    linkpath: "/ui-docs/components/button",
   },
   {
     id: 5,
     Image: ComponentsImg5,
     heading: "Checkbox",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    linkContent : 'Explore',
-    linkpath : '/ui-docs/components/checkbox'
+    linkpath: "/ui-docs/components/checkbox",
   },
   {
     id: 6,
     Image: ComponentsImg6,
     heading: "Panel",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    linkContent : 'Explore',
-
+    linkpath: "/ui-docs/components/panel",
   },
   {
     id: 7,
     Image: ComponentsImg7,
     heading: "Radio",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    linkContent : 'Explore',
-    linkpath : '/ui-docs/components/radio'
+    linkpath: "/ui-docs/components/radio",
   },
   {
     id: 8,
     Image: ComponentsImg8,
     heading: "Select",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    linkContent : 'Explore'
+    linkpath: "/ui-docs/components/select",
   },
   {
     id: 9,
     Image: ComponentsImg9,
     heading: "Text Input",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    linkContent : 'Explore',
-    linkpath : '/ui-docs/components/text-input'
+    linkpath: "/ui-docs/components/text-input",
   },
   {
     id: 10,
     Image: ComponentsImg10,
     heading: "Warning Text",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    linkContent : 'Explore',
-
   },
   {
     id: 11,
     Image: ComponentsImg11,
     heading: "Sidenav",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    linkContent : 'Explore'
+    linkpath: "/ui-docs/components/waring-text",
   },
   {
     id: 12,
     Image: ComponentsImg12,
     heading: "Cards",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    linkContent : 'Explore',
-    linkpath : '/ui-docs/components/cards'
+    linkpath: "/ui-docs/components/card",
+    
   },
   {
     id: 13,
     Image: ComponentsImg13,
     heading: "Tooltip",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    linkContent : 'Explore'
+    linkpath: "/ui-docs/components/tooltip",
   },
   {
     id: 14,
     Image: ComponentsImg14,
     heading: "Badge",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    linkContent : 'Explore'
+    linkpath: "/ui-docs/components/badge",
   },
   {
     id: 15,
     Image: ComponentsImg15,
     heading: "Chip",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    linkContent : 'Explore'
+    linkpath: "/ui-docs/components/chip",
   },
   {
     id: 16,
     Image: ComponentsImg16,
     heading: "Toast",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    linkContent : 'Explore',
-    linkpath : '/ui-docs/components/toast-message'
+    linkpath: "/ui-docs/components/tost",
   },
   {
     id: 17,
     Image: ComponentsImg17,
     heading: "Popup",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    linkContent : 'Explore',
-    linkpath : '/ui-docs/components/toast-message'
+    linkpath: "/ui-docs/components/popup",
   },
 ];
 
@@ -158,15 +128,12 @@ const ComponentsItem = () => {
   return (
     <>
       <div className="md:w-5/6 w-full mb-60">
-        <div className="pb-2">
+        <div className="pb-2 sm:w-3/5 w-full">
           <Header>Components</Header>
           <p className="md:text-xs lg:text-sm 2xl:text-base py-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+            A complete guide to use and apply the various visual components used
+            on the DIGIT platform to ensure consistency in design across modules
+            and screens.
           </p>
         </div>
         <div className="grid xl:grid-cols-3 lg:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-8 my-2">
@@ -175,10 +142,8 @@ const ComponentsItem = () => {
               <ComponentsCard
                 Image={item.Image}
                 heading={item.heading}
-                para={item.para}
                 key={item.id}
-                linkContent ={item.linkContent}
-                linkpath ={item.linkpath && item.linkpath}
+                linkpath ={item.linkpath}
               />
             );
           })}

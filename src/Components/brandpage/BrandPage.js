@@ -16,7 +16,7 @@ const BrandPage = () => {
       Image: MissionImg,
       para: "Our mission is to unleash the potential in every team.",
       linkContent: "Explore",
-      linkpath: "/brand/mission",
+      linkpath: "/ui-docs/brand/mission",
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ const BrandPage = () => {
       Image: PersonalityImg,
       para: "Our personality describes the tone we use for external communications. It should be expressed as an embodiment of our values.",
       linkContent: "Explore",
-      linkpath: "/brand/personality",
+      linkpath: "/ui-docs/brand/personality",
     },
     {
       id: 3,
@@ -32,7 +32,7 @@ const BrandPage = () => {
       Image: PromiseImg,
       para: "Our promise is that our tools and practices will help teams work better together in an agile, open, and scalable way.",
       linkContent: "Explore",
-      linkpath: "/brand/promise",
+      linkpath: "/ui-docs/brand/promise",
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ const BrandPage = () => {
       Image: ValuesImg,
       para: "Our values reflect the spirit with which DIGIT works to fulfill our promise.",
       linkContent: "Explore",
-      linkpath: "/brand/values",
+      linkpath: "/ui-docs/brand/values",
     },
   ];
   return (
