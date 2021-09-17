@@ -4,6 +4,7 @@ import {
   Header,
 } from "@egovernments/digit-ui-react-components";
 import React from "react";
+import BreadCrumImg from "../../assets/img/all_fresh/Breadcrumb.png"
 
 const BreadCrumbs = () => {
   const crumbs = [
@@ -38,7 +39,7 @@ const BreadCrumbs = () => {
       </div>
       <div className="py-b">
         <Card className="py-4">
-          <BreadCrumb crumbs={crumbs} />
+          <img src={BreadCrumImg} alt="Bread crumb" />
         </Card>
       </div>
       <div className="sm:w-3/5 w-full py-4">

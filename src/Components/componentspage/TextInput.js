@@ -1,53 +1,27 @@
 import React, { useState } from "react";
-// import ExportIcon from "../../assets/img/Vector.png";
-// import CopyIcon from "../../assets/img/copyIcon.png";
 import {
   Card,
   Header,
   Label,
   TextInput,
 } from "@egovernments/digit-ui-react-components";
+import TextInputImg from "../../assets/img/all_fresh/TextInput.png"
+import PasswordImg from "../../assets/img/all_fresh/Password.png"
+import SuffixPrefixImg from "../../assets/img/all_fresh/SuffixPrefix.png"
+import TextInputErrorImg from "../../assets/img/all_fresh/TextInputError.png"
+
 
 const TextInputs = () => {
   const [inputName, setInputName] = useState("");
   const [number, setNumber] = useState(false);
   const [errorCode, setErrorCode] = useState(false);
   const handleChange = (e) => {
-    setInputName(e.target.value);
+    setInputName(e.target.value); 
   };
   return (
     <div className="md:w-5/6 w-full mb-60">
       <div className="mb-4">
         <Header>Text Input</Header>
-        {/* <Card
-          className="px-3 py-5 cursor-pointer"
-        >
-          <form>
-            <div className="flex flex-col">
-              <Label>Name</Label>
-              <TextInput
-                className="text-base"
-                onChange={handleChange}
-                value={inputName}
-              />
-            </div>
-          </form>
-            <div className="py-4 flex justify-between items-start bg-codebg">
-              <div className="text-text_input_code">
-                <p className="text-text_input_code py-2 text-xs">
-                  <span className="text-banner_bg font-bold">import</span>
-                  {` React from 'react';`}
-                </p>
-                <p className="text-text_input_code py-2 text-xs">
-                  <span className="text-banner_bg font-bold">import</span>{" "}
-                  Textfield from '@atlaskit/textfield';
-                </p>
-                <p className="text-text_input_code py-2 text-xs">{`export default function TextFieldDefaultExample() {`}</p>
-                <p className="text-text_input_code py-2 text-xs">{`return <Textfield name="basic" aria-label="default text field" />;`}</p>
-                <p className="text-text_input_code py-2 text-xs">{`}`}</p>
-              </div>
-            </div>
-        </Card> */}
       </div>
       <div className="content_main">
         <div className="sm:w-3/5 w-full py-4">
@@ -59,6 +33,9 @@ const TextInputs = () => {
             content input and data. The component allows users to input
             responses or data based on specific requirements.
           </p>
+        </div>
+        <div className="py-4">
+          <img src={TextInputImg} alt="Input Text" className="w-1/2" />
         </div>
         <div className="sm:w-3/5 w-full py-4">
           <h2 className="2xl:text-3xl xl:text-3xl md:text-2xl sm:text-lg font-bold">
@@ -124,23 +101,9 @@ const TextInputs = () => {
             Hint text
           </h3>
         </div>
-        <Card className="px-3 py-5 cursor-pointer">
-          <form>
-            <div className="flex flex-col">
-              <div className="flex flex-col w-1/2">
-                <Label>Password</Label>
-                <TextInput
-                  className="text-base"
-                  onChange={handleChange}
-                  placeholder="+91 "
-                />
-              </div>
-              <small className="text-xs">
-                The password Must be atleast 8 characters long
-              </small>
-            </div>
-          </form>
-        </Card>
+        <div className="py-4">
+          <img src={PasswordImg} alt="password" className="w-1/2"  />
+        </div>
         <div className="py-4">
           <p className="2xl:text-lg sm:text-sm">
             Use hint text to give information to users on the kind of input
@@ -160,32 +123,22 @@ const TextInputs = () => {
             users to enter the specified weight or quantity details.
           </p>
         </div>
-        <Card
-          className="px-3 py-5 cursor-pointer"
+        <div
+          className="py-4 cursor-pointer"
         >
-          Card
-        </Card>
+          <img src={SuffixPrefixImg} alt="suffix prefix" className="w-1/2" />
+        </div>
         <div className="sm:w-3/5 w-full py-4">
           <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">
           Error Messages
           </h3>
         </div>
-        <Card
-          className="px-3 py-5 cursor-pointer"
+        <div
+          className="py-4 cursor-pointer"
           onClick={() => setErrorCode(!errorCode)}
         >
-          <form>
-            <div className="flex flex-col w-1/2">
-              <TextInput
-                className="text-base border-red-400"
-                userType="text"
-              />
-              <small className="text-xs text-red-400">
-              Enter Name
-              </small>
-            </div>
-          </form>
-          </Card>
+        <img src={TextInputErrorImg} alt="Error Message" className="w-1/2" />
+          </div>
         <div className="sm:w-3/5 w-full py-4">
           <p className="2xl:text-lg sm:text-sm pb-4">
           Follow the text input specifications given below for showing error messages on the screen.

@@ -1,7 +1,11 @@
-import { Card, Header } from "@egovernments/digit-ui-react-components";
+import { Card, FormStep, Header } from "@egovernments/digit-ui-react-components";
 import React from "react";
+import AlertImg from "../../assets/img/all_fresh/Alert.png"
 
 const ErrorMessage = () => {
+  const onSelect=()=>{
+    console.log("hello")
+  }
   return (
     <div className="md:w-5/6 w-full mb-60">
       <div className="mb-4">
@@ -16,7 +20,9 @@ const ErrorMessage = () => {
           on what went wrong and what should be the next step to fix the issue.
         </p>
       </div>
-      <Card className="py-4">Error </Card>
+      <Card className="py-4">
+      <img src={AlertImg} alt="error" className="w-1/2" />
+      </Card>
       <div className="sm:w-3/5 w-full py-4">
         <h2 className="2xl:text-3xl xl:text-3xl md:text-2xl sm:text-lg font-bold">
           Guidelines

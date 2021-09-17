@@ -4,6 +4,7 @@ import {
   Header,
 } from "@egovernments/digit-ui-react-components";
 import React from "react";
+import BackLinkImg from "../../assets/img/all_fresh/Back.png"
 
 const BackLinks = () => {
   return (
@@ -21,7 +22,7 @@ const BackLinks = () => {
       </div>
       <div className="pb-4">
         <Card className="py-4">
-          <BackButton>Back</BackButton>
+          <img src={BackLinkImg} alt="Back"  />
         </Card>
       </div>
       <div className="pb-4">

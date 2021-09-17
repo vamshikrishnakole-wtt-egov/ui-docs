@@ -7,6 +7,9 @@ import {
   LinkButton,
 } from "@egovernments/digit-ui-react-components";
 import React from "react";
+import ButtonImg from "../../assets/img/all_fresh/Button.png"
+import ButtonGroupImg from "../../assets/img/all_fresh/ButtonGroup.png"
+
 
 const Buttons = () => {
   return (
@@ -24,7 +27,7 @@ const Buttons = () => {
         </p>
       </div>
       <Card className="py-4">
-        <ButtonSelector label="Button" />
+        <img src={ButtonImg} alt="Button" />
       </Card>
       <div className="sm:w-3/5 w-full py-4">
         <h2 className="2xl:text-3xl xl:text-3xl md:text-2xl sm:text-lg font-bold">
@@ -87,16 +90,9 @@ const Buttons = () => {
           </li>
         </ul>
       </div>
-      <Card className="py-4 bg-card_button_bg">
-          <div className="flex w-64 py-4 justify-between">
-            <ButtonSelector label="Button" />
-            <ButtonSelector label="Button" style={{background : "#F47738", boxShadow : "inset 0px -2px 0px #0B0C0C"}} />
-          </div>
-          <div className="flex w-64 py-4 justify-between">
-            <ButtonSelector label="Button" style={{background : "#F47738", boxShadow : "inset 0px -2px 0px #0B0C0C", opacity : "0.5"}} />
-            <ButtonSelector label="Button" style={{background : "#F47738", boxShadow : "inset 0px -2px 0px #0B0C0C", opacity : "0.5"}} />
-          </div>
-      </Card>
+      <div className="py-4">
+          <img src={ButtonGroupImg} alt="Button Group" />
+      </div>
       <div className="sm:w-3/5 w-full py-4">
         <p className="py-4"><b> Default Buttons -</b> These buttons are used for the primary call to action item on the page. Make sure you include only one default button on a single page for clarity and efficacy.</p>
         <p className="py-4"><b>Start Buttons - </b> These buttons redirect users to the concerned application page and usually initiate a transaction or process.</p>

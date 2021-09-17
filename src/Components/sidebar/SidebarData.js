@@ -82,7 +82,7 @@ const SidebarData = [
   {
     id: 17,
     item: "Radio Buttons",
-    linkpath: "/ui-docs/components/radio",
+    linkpath: "/ui-docs/components/radio-buttons",
   },
   {
     id: 18,
@@ -126,8 +126,23 @@ const SidebarData = [
   },
   {
     id: 26,
-    item: "Waring Text",
-    linkpath: "/ui-docs/components/waring-text",
+    item: "Warning Text",
+    linkpath: "/ui-docs/components/warning-text",
+  },
+  {
+    id: 27,
+    item: "Side Nav",
+    linkpath: "/ui-docs/components/side-nav",
+  },
+  {
+    id: 27,
+    item: "Pop Up",
+    linkpath: "/ui-docs/components/pop-up",
+  },
+  {
+    id: 27,
+    item: "Toast Message",
+    linkpath: "/ui-docs/components/toast-message",
   },
 ];
 
