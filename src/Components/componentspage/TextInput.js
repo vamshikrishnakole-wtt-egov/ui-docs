@@ -8,6 +8,9 @@ import {
   TextInput,
 } from "@egovernments/digit-ui-react-components";
 
+import PrefixImg from "../../assets/img/components/Prefix.png"
+import SufixImg from "../../assets/img/components/Sufix.png"
+
 const TextInputs = () => {
   const [inputName, setInputName] = useState("");
   const [number, setNumber] = useState(false);
@@ -60,6 +63,20 @@ const TextInputs = () => {
             responses or data based on specific requirements.
           </p>
         </div>
+        <Card className="px-3 py-5 cursor-pointer">
+          <form>
+            <div className="flex flex-col">
+              <div className="flex flex-col w-1/2">
+                <Label>Name</Label>
+                <TextInput
+                  className="text-base"
+                  onChange={handleChange}
+                  placeholder="+91 "
+                />
+              </div>
+            </div>
+          </form>
+        </Card>
         <div className="sm:w-3/5 w-full py-4">
           <h2 className="2xl:text-3xl xl:text-3xl md:text-2xl sm:text-lg font-bold">
             Guidelines
@@ -135,7 +152,7 @@ const TextInputs = () => {
                   placeholder="+91 "
                 />
               </div>
-              <small className="text-xs">
+              <small>
                 The password Must be atleast 8 characters long
               </small>
             </div>
@@ -163,7 +180,8 @@ const TextInputs = () => {
         <Card
           className="px-3 py-5 cursor-pointer"
         >
-          Card
+          <img src={PrefixImg} alt="prefix" className="w-1/2" /> <br />
+          <img src={SufixImg} alt="Sufix" className="w-1/2" /> 
         </Card>
         <div className="sm:w-3/5 w-full py-4">
           <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">

@@ -32,6 +32,26 @@ import PatternsPage from "./Pages/patterns/PatternsPage";
 import ResourcesPage from "./Pages/resources/ResourcesPage";
 import BackLinksPage from "./Pages/components/BackLinksPage";
 import ErrorMessagePage from "./Pages/components/ErrorMessagePage";
+import DateInputPage from "./Pages/components/DateInputPage";
+import FooterPage from "./Pages/components/FooterPage";
+import InsetTextPage from "./Pages/components/InsetTextPage";
+import NotificationBannerPage from "./Pages/components/NotificationBannerPage";
+import PanelPage from "./Pages/components/PanelPage";
+import PhaseBannerPage from "./Pages/components/PhaseBannerPage";
+import PaginationPage from "./Pages/components/PaginationPage";
+import RadioButtonsPage from "./Pages/components/RadioButtonsPage";
+import SelectPage from "./Pages/components/SelectPage";
+import SkipLinkPage from "./Pages/components/SkipLinkPage";
+import SummaryListPage from "./Pages/components/SummaryListPage";
+import TablePage from "./Pages/components/TablePage";
+import TabsPage from "./Pages/components/TabsPage";
+import TagPage from "./Pages/components/TagPage";
+import SideNavPage from "./Pages/components/SideNavPage";
+import PopUpPage from "./Pages/components/PopUpPage";
+import TextAreaPage from "./Pages/components/TextAreaPage";
+import WarningTextPage from "./Pages/components/WarningTextPage";
+import ErrorSummaryPage from "./Pages/components/ErrorSummaryPage";
+import FieldSetPage from "./Pages/components/FieldSetPage";
 
 // import { Body, TopBar } from "@egov/digit-ui-react-components"; // for component use
 
@@ -73,6 +93,18 @@ function App() {
           <Route exact path="/ui-docs/components/toast-message">
             <ToastMessagePage />
           </Route>
+          <Route exact path="/ui-docs/components/text-area">
+            <TextAreaPage />
+          </Route>
+          <Route exact path="/ui-docs/components/warning-text">
+            <WarningTextPage />
+          </Route>
+          <Route exact path="/ui-docs/components/error-summary">
+            <ErrorSummaryPage />
+          </Route>
+          <Route exact path="/ui-docs/components/field-set">
+            <FieldSetPage />
+          </Route>
           <Route exact path="/ui-docs/components/cards">
             <CardsPage />
           </Route>
@@ -99,6 +131,54 @@ function App() {
           </Route>
           <Route exact path="/ui-docs/components/error-message">
             <ErrorMessagePage />
+          </Route>
+          <Route exact path="/ui-docs/components/date-input">
+            <DateInputPage />
+          </Route>
+          <Route exact path="/ui-docs/components/footer">
+            <FooterPage />
+          </Route>
+          <Route exact path="/ui-docs/components/inset-text">
+            <InsetTextPage />
+          </Route>
+          <Route exact path="/ui-docs/components/notification-banner">
+            <NotificationBannerPage />
+          </Route>
+          <Route exact path="/ui-docs/components/panel">
+            <PanelPage />
+          </Route>
+          <Route exact path="/ui-docs/components/phase-banner">
+            <PhaseBannerPage />
+          </Route>
+          <Route exact path="/ui-docs/components/pagination">
+            <PaginationPage />
+          </Route>
+          <Route exact path="/ui-docs/components/select">
+            <SelectPage />
+          </Route>
+          <Route exact path="/ui-docs/components/radio-buttons">
+            <RadioButtonsPage />
+          </Route>
+          <Route exact path="/ui-docs/components/skip-link">
+            <SkipLinkPage />
+          </Route>
+          <Route exact path="/ui-docs/components/summary-list">
+            <SummaryListPage />
+          </Route>
+          <Route exact path="/ui-docs/components/table">
+            <TablePage />
+          </Route>
+          <Route exact path="/ui-docs/components/tabs">
+            <TabsPage />
+          </Route>
+          <Route exact path="/ui-docs/components/tag">
+            <TagPage />
+          </Route>
+          <Route exact path="/ui-docs/components/side-nav">
+            <SideNavPage />
+          </Route>
+          <Route exact path="/ui-docs/components/pop-up">
+            <PopUpPage />
           </Route>
           <Route exact path="/ui-docs/foundations">
             <Foundations />

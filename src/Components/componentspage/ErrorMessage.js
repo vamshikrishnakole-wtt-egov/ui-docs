@@ -1,7 +1,11 @@
-import { Card, Header } from "@egovernments/digit-ui-react-components";
+import { Card, CardLabelError, FormStep, Header } from "@egovernments/digit-ui-react-components";
 import React from "react";
+import ErrorMessageImg from "../../assets/img/components/ErrorMessage.png"
 
 const ErrorMessage = () => {
+  const onSelect=()=>{
+    console.log("hello")
+  }
   return (
     <div className="md:w-5/6 w-full mb-60">
       <div className="mb-4">
@@ -16,7 +20,9 @@ const ErrorMessage = () => {
           on what went wrong and what should be the next step to fix the issue.
         </p>
       </div>
-      <Card className="py-4">Error </Card>
+      <Card className="py-4">
+      <img src={ErrorMessageImg} alt="Error Message" className="w-1/2" />
+      </Card>
       <div className="sm:w-3/5 w-full py-4">
         <h2 className="2xl:text-3xl xl:text-3xl md:text-2xl sm:text-lg font-bold">
           Guidelines
@@ -85,7 +91,6 @@ const ErrorMessage = () => {
           <li className="py-2">
             Use specific message text to make it relevant and helpful{" "}
           </li>
-
           <li className="py-2">
             Provide clear instructions and brief descriptions on what is
             required and the next steps
