@@ -15,9 +15,9 @@ const Tables = () => {
                 </p>
             </div>
             <div className="pb-4">
-                <Card className="py-4">
+                <div className="py-4">
                     <img src={TableImg} alt="Table"  />
-                </Card>
+                </div>
             </div>
             <div className="pb-4">
                 <h2 className="sm:text-xl font-bold">Guidelines</h2>
