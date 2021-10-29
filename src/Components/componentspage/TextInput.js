@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {
   Card,
+  FormComposer,
   Header,
   Label,
   TextInput,
@@ -8,6 +9,8 @@ import {
 import TextInputImg from "../../assets/img/all_fresh/TextInput.png"
 import PasswordImg from "../../assets/img/all_fresh/Password.png"
 import SuffixPrefixImg from "../../assets/img/all_fresh/SuffixPrefix.png"
+import PreFixImg from "../../assets/img/all_fresh/PreFix.png"
+import SufixImg from "../../assets/img/all_fresh/Sufix.png"
 import TextInputErrorImg from "../../assets/img/all_fresh/TextInputError.png"
 
 
@@ -123,11 +126,12 @@ const TextInputs = () => {
             users to enter the specified weight or quantity details.
           </p>
         </div>
-        <div
-          className="py-4 cursor-pointer"
+        <Card
+          className="py-4"
         >
-          <img src={SuffixPrefixImg} alt="suffix prefix" className="w-1/2" />
-        </div>
+          <img src={PreFixImg} alt="suffix prefix" className="w-1/2" />
+          <img src={SufixImg} alt="suffix prefix" className="w-1/2 mt-4" />
+        </Card>
         <div className="sm:w-3/5 w-full py-4">
           <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">
           Error Messages

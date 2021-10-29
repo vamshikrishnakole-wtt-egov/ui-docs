@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Header, RadioButtons } from "@egovernments/digit-ui-react-components";
+import RadioImg from "../../assets/img/all_fresh/Radio.png"
 
 const Radio = () => {
   const [selectedOption, setSelectedOption] = useState();

@@ -14,11 +14,9 @@ const SideNav = () => {
                     The Tag component is used to display the status of specific user actions.
                 </p>
             </div>
-            <div className="pb-4">
-                <div className="py-4">
-                    <img src={SideNavImg} alt="Side Nav" className="w-1/2" />
-                </div>
-            </div>
+            <Card className="py-4">
+                <img src={SideNavImg} alt="Side Nav"  />
+            </Card>
             <div className="pb-4">
                 <h2 className="sm:text-xl font-bold">Guidelines</h2>
                 <p className="md:text-xs lg:text-sm 2xl:text-base">

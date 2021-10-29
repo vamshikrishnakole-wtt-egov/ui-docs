@@ -17,11 +17,9 @@ const NotificationBanner = () => {
                     maintenance and the application may not function for a certain duration.
                 </p>
             </div>
-            <div className="pb-4">
-                <div className="py-4">
-                    <img src={NotificationBannerImg} alt="Notification Banner" />
-                </div>
-            </div>
+            <Card className="py-4">
+                    <img src={NotificationBannerImg} alt="Notification Banner" className="w-1/2" />
+            </Card>
             <div className="pb-4">
                 <h2 className="sm:text-xl font-bold">Guidelines</h2>
                 <p className="md:text-xs lg:text-sm 2xl:text-base">

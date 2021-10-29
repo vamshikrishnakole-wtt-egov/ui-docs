@@ -16,7 +16,7 @@ const Tag = () => {
             </div>
             <div className="pb-4">
                 <div className="py-4">
-                    <img src={TagImg} alt="tag" />
+                    <img src={TagImg} alt="tag" className="w-1/2" />
                 </div>
             </div>
             <div className="pb-4">

@@ -17,7 +17,7 @@ const HeaderComponents = () => {
       </div>
       <div className="pb-4">
         <Card className="py-4">
-          <img src={HeaderImg} alt="Header" />
+          <img src={HeaderImg} alt="Header" className="w-1/2" />
         </Card>
       </div>
       <div className="pb-4">

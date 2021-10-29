@@ -5,7 +5,8 @@ import {
   UploadImages,
 } from "@egovernments/digit-ui-react-components";
 import React, { useState } from "react";
-import FileUploadImg from "../../assets/img/all_fresh/FileUpload.png"
+import FileUpload1Img from "../../assets/img/all_fresh/FileUpload1.png"
+import FileUpload2Img from "../../assets/img/all_fresh/FileUpload2.png"
 
 const UploadFiles = () => {
   const [file, setFile] = useState(null);
@@ -30,7 +31,8 @@ const UploadFiles = () => {
       </div>
       <div className="pb-4">
         <div className="mb-8">
-          <img src={FileUploadImg} alt="File Upload" className="w-1/2" />
+          <img src={FileUpload1Img} alt="File Upload" className="w-1/2" />
+          <img src={FileUpload2Img} alt="File Upload" className="w-1/2 mt-8" />
         </div>
       </div>
       <div className="pb-4">

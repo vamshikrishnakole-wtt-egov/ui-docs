@@ -23,7 +23,7 @@ const RadioButton = () => {
             </div>
             <div className="pb-4">
                 <Card className="py-4">
-                <img src={RadioImg} alt="radio" />
+                <img src={RadioImg} alt="radio" className="w-1/2" />
                 </Card>
             </div>
             <div className="pb-4">

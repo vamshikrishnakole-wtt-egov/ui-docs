@@ -18,7 +18,7 @@ const InsetText = () => {
             </div>
             <div className="pb-4">
                 <Card className="py-4">
-                    <img src={InsetTextImg} alt="Inset Text" />
+                    <img src={InsetTextImg} alt="Inset Text" className="w-1/2" />
                 </Card>
             </div>
             <div className="pb-4">

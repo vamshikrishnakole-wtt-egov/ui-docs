@@ -22,7 +22,7 @@ const DateInput = () => {
             </div>
             <div className="pb-4">
                 <div className="py-4">
-                    <img src={DateInputImg} alt="date" />
+                    <img src={DateInputImg} alt="date" className="w-1/2" />
                 </div>
             </div>
             <div className="pb-4">

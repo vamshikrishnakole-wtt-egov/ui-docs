@@ -20,11 +20,9 @@ const BackLinks = () => {
           the application, in turn, impacting user experience.
         </p>
       </div>
-      <div className="pb-4">
-        <Card className="py-4">
-          <img src={BackLinkImg} alt="Back"  />
-        </Card>
-      </div>
+      <Card className="py-4">
+        <img src={BackLinkImg} alt="Back" className="w-1/2" />
+      </Card>
       <div className="pb-4">
         <h2 className="sm:text-xl font-bold">Guidelines</h2>
         <p className="md:text-xs lg:text-sm 2xl:text-base">
@@ -61,13 +59,13 @@ const BackLinks = () => {
           <li className="py-2">
             Place the backlink component at the top of the page. This way users
             do not have to scroll through the entire page to find the back
-            button making it easier to navigate back to the previous page. 
+            button making it easier to navigate back to the previous page.
           </li>
           <li className="py-2">The
             backlink should redirect users to the previous page in the same
             state that they left it. It should not redirect to the application
             home page.</li>
-            <li className="py-2">Hide the backlink component if JavaScript is not
+          <li className="py-2">Hide the backlink component if JavaScript is not
             available for specific pages</li>
         </ul>
       </div>

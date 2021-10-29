@@ -9,6 +9,8 @@ import {
 } from "@egovernments/digit-ui-react-components";
 import React, { useState } from "react";
 import ToastMessageImg from "../../assets/img/all_fresh/ToastMessage.png"
+import WarningToastImg from "../../assets/img/all_fresh/WarningToast.png"
+import FailureToastImg from "../../assets/img/all_fresh/FailureToast.png"
 
 const ToastMessage = () => {
   const [click, setClick] = useState(true);
@@ -25,7 +27,11 @@ const ToastMessage = () => {
         </p>
       </div>
       <Card className="py-4">
-        <img src={ToastMessageImg} alt="Toast Message" className="w-1/2" />
+        <div className="flex items-center">
+          <img src={ToastMessageImg} alt="Toast Message" className="w-1/2" />
+          <img src={FailureToastImg} alt="Toast Message" className="w-1/2 ml-8" />
+        </div>
+        <img src={WarningToastImg} alt="Toast Message" className="w-1/2 mt-8" />
       </Card>
       <div className="pb-4">
         <h2 className="sm:text-xl font-bold">Guidelines</h2>
