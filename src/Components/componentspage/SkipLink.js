@@ -18,7 +18,7 @@ const SkipLink = () => {
             </div>
             <div className="pb-4">
                 <Card className="py-4">
-                <img src={SkipLinkImg} alt="skip link" className="w-1/2" />
+                <img src={SkipLinkImg} alt="skip link" className="h-5 w-50" />
                 </Card>
             </div>
             <div className="pb-4">

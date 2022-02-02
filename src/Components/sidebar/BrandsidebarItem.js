@@ -19,6 +19,16 @@ const BrandSidebarItems =[
         item : 'Values',
         linkpath : '/ui-docs/brand/values'
     },
+    {
+        id:5,
+        item:'Design Principles',
+        linkpath : '/ui-docs/brand/designprinciples'
+    },
+    {
+        id:6,
+        item:'Branding',
+        linkpath : '/ui-docs/brand/branding'
+    }
 ]
 
 export default BrandSidebarItems;

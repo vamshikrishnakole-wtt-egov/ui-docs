@@ -18,7 +18,7 @@ const NotificationBanner = () => {
                 </p>
             </div>
             <Card className="py-4">
-                    <img src={NotificationBannerImg} alt="Notification Banner" className="w-1/2" />
+                    <img src={NotificationBannerImg} alt="Notification Banner" className="h-15 w-70" />
             </Card>
             <div className="pb-4">
                 <h2 className="sm:text-xl font-bold">Guidelines</h2>

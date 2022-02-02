@@ -9,12 +9,13 @@ import Container from "../common/Container";
 export default function Header({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
-    <nav className="relative flex flex-wrap navbar_shadow bg-white items-center justify-between px-4 py-4">
+    // to make the orange border to be at the edge we have to remove bottom padding in nav(use py-4 to get previous look)
+    <nav className="relative flex flex-wrap navbar_shadow bg-white items-center justify-between px-4 pt-6 pb-0">
     <Container>
       <div className="lg:flex items-center justify-between block">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <Link to="/ui-docs">
-            <img src={logo} alt="logo" className="navbar-logo" />
+            <img src={logo} alt="logo" className="navbar-logo mb-3" />
           </Link>
           <button
             className="text-border cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded block lg:hidden outline-none focus:outline-none"

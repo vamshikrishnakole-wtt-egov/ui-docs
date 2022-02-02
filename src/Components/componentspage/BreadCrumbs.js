@@ -39,7 +39,7 @@ const BreadCrumbs = () => {
       </div>
       <div className="py-b">
         <Card className="py-4">
-          <img src={BreadCrumImg} alt="Bread crumb" className="w-1/2" />
+          <img src={BreadCrumImg} alt="Bread crumb" className="h-10 w-30" />
         </Card>
       </div>
       <div className="sm:w-3/5 w-full py-4">

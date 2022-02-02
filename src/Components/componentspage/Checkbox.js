@@ -23,7 +23,7 @@ const Checkbox = () => {
         </p>
       </div>
       <Card className="py-8">
-        <img src={CheckboxImg} alt="checkbox" className="w-1/2" />
+        <img src={CheckboxImg} alt="checkbox" className="h-10 w-25" />
       </Card>
       <div className="sm:w-3/5 w-full py-4">
         <h2 className="2xl:text-3xl xl:text-3xl md:text-2xl sm:text-lg font-bold">
