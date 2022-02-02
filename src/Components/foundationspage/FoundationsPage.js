@@ -33,6 +33,15 @@ const FoundationsPage = () => {
       linkItem: "Explore",
       link: "/ui-docs/foundations/iconography",
     },
+    {
+      id: 4,
+      heading: "Accessibility",
+      Image: IconoIcon,
+      para: "Accessible design lets people of all abilities interact with, understand, and navigate our product.",
+      linkItem: "Explore",
+      link: "/ui-docs/foundations/accessibility",
+    }
+
   ];
   return (
     <div className="md:w-5/6 w-full mb-60">

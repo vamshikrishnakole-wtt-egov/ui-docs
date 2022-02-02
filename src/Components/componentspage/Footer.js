@@ -23,7 +23,7 @@ const Footer = () => {
             </div>
             <div className="pb-4">
                 <Card className="py-4">
-                <img src={FooterImg} alt="footer" className="w-1/2" />
+                <img src={FooterImg} alt="footer" className="h-5 w-40" />
                 </Card>
             </div>
             <div className="pb-4">

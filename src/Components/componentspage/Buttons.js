@@ -27,7 +27,7 @@ const Buttons = () => {
         </p>
       </div>
       <Card className="py-4">
-        <img src={ButtonImg} alt="Button" className="w-1/2" />
+        <img src={ButtonImg} alt="Button" className="h-12 w-25" />
       </Card>
       <div className="sm:w-3/5 w-full py-4">
         <h2 className="2xl:text-3xl xl:text-3xl md:text-2xl sm:text-lg font-bold">

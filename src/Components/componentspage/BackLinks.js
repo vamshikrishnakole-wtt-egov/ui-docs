@@ -21,7 +21,7 @@ const BackLinks = () => {
         </p>
       </div>
       <Card className="py-4">
-        <img src={BackLinkImg} alt="Back" className="w-1/2" />
+        <img src={BackLinkImg}  alt="Back" className="h-10 w-20" />
       </Card>
       <div className="pb-4">
         <h2 className="sm:text-xl font-bold">Guidelines</h2>

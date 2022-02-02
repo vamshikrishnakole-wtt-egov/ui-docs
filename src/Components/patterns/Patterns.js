@@ -1,5 +1,7 @@
 import { Header } from "@egovernments/digit-ui-react-components";
 import React from "react";
+import rectImg from '../../assets/img/Patterns/rect.png'
+import ComingSoon from '../../assets/img/Patterns/soon.png'
 
 const Patterns = () => {
   return (
@@ -7,7 +9,7 @@ const Patterns = () => {
       <div className="mb-4">
         <Header>Patterns</Header>
       </div>
-      <div className="pb-4">
+      {/* <div className="pb-4">
         <h2 className="sm:text-xl font-bold">Overview</h2>
         <p className="md:text-xs lg:text-sm 2xl:text-base py-2">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure reiciendis dicta voluptatum amet error corporis delectus accusamus nesciunt magnam fuga, asperiores mollitia, possimus eos ducimus numquam architecto est totam autem?
@@ -24,6 +26,11 @@ const Patterns = () => {
         <p className="md:text-xs lg:text-sm 2xl:text-base py-2">
         Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, id. dolor, sit amet consectetur adipisicing elit. Iure reiciendis dicta voluptatum amet error corporis delectus accusamus nesciunt magnam fuga, asperiores mollitia, possimus eos ducimus numquam architecto est totam autem?
         </p>
+      </div> */}
+      <div className="w-80 h-60 bg-gray-200" style={{position:'absolute',top:'0',bottom:'0',right:'0',left:'0',margin:'auto'}}>
+          {/* <img src={rectImg} alt="rectangleImg"></img> */}
+          <img src={ComingSoon} className="px-8 py-20" alt="ComingSoonImg"></img>
+
       </div>
     </div>
   );
