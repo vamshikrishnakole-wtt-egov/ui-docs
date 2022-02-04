@@ -370,9 +370,9 @@ function App() {
 
 
           <Route exact path="/ui-docs/brand">
-            <Brand />
+            <Redirect to="/ui-docs/brand/designprinciples" />
           </Route>
-          <Route  path="/ui-docs/brand/mission">
+          {/* <Route  path="/ui-docs/brand/mission">
             <MissionPage />
           </Route>
           <Route  path="/ui-docs/brand/personality">
@@ -383,7 +383,7 @@ function App() {
           </Route>
           <Route  path="/ui-docs/brand/values">
             <ValuesPage />
-          </Route>
+          </Route> */}
           <Route  path="/ui-docs/brand/designprinciples">
             <DesignPrinciplesPage />
           </Route>
@@ -392,25 +392,26 @@ function App() {
           </Route>
 
           <Route exact path="/ui-docs/content">
-            <ContentPage />
+            <Redirect to="/ui-docs/content/voicetone" />
           </Route>
           <Route exact path="/ui-docs/content/voicetone">
             <VoiceTonePage />
           </Route>      
 
           <Route exact path="/ui-docs/patterns">
-            <PatternsPage />
+            <Redirect to="/ui-docs/patterns/pattern"/>
           </Route>
           <Route  path="/ui-docs/patterns/pattern">
             <PatternOnePage />
           </Route>
 
           <Route exact path="/ui-docs/resources">
-            <ResourcesPage />
+            <Redirect to="/ui-docs/resources/resource"/>
           </Route>
           <Route  path="/ui-docs/resources/resource">
             <ResourcesOnePage />
           </Route>
+
           <Redirect to="/ui-docs/" /> 
           {/* Redirect if switch doesn't match with any of the above Routes */}
         </Switch>
