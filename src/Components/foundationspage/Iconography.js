@@ -113,7 +113,7 @@ const Iconography = () => {
           <img className="p-2" src={contentImg} alt="actions" />
           <img className="p-2" src={fileImg} alt="actions" />        
           <img className="p-2" src={notificationImg} alt="actions" />
-          <img className="p-2 row-span-2" src={imageImg} alt="actions" />
+          <img className="p-2 row-span-3" src={imageImg} alt="actions" />
           <img className="p-2" src={socialImg} alt="actions" />
 
           <img className="p-2" src={mapsImg} alt="actions" />
