@@ -29,7 +29,7 @@ const Accessibility = () => {
               <br /> <br />
               Accessible design is everyone's responsibility, from information and user experience design, through to development, and on into help and support. It is about understanding the users' journeys and proactively anticipating their needs.
               <br /> <br />
-              To make sure products are accessible to everyone, follow the <l className='text-red-400'>four principles of the Web Content Accessibility Guidelines:</l>
+              To make sure products are accessible to everyone, follow the <a href='https://www.w3.org/TR/UNDERSTANDING-WCAG20/intro.html#introduction-fourprincs-head' target="_blank" rel="noreferrer" className='text-red-400'>four principles of the Web Content Accessibility Guidelines:</a>
               <br /> <br />
               Perceivable: It can be perceived by at least one of a person's senses.
               <br /> <br />
@@ -255,7 +255,7 @@ const Accessibility = () => {
           ensure the tasks in your applications can be accomplished by anyone, regardless of ability
           <br/><br/>
 
-          When in doubt, refer to the <l className='text-red-400'> Web Content Accessibility Guidelines 2.1. </l>
+          When in doubt, refer to the <a href="https://www.w3.org/TR/WCAG21/" target="_blank" rel="noreferrer" className='text-red-400'> Web Content Accessibility Guidelines 2.1. </a>
           <br/><br/>
           </p>
 
