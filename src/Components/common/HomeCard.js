@@ -10,7 +10,7 @@ const HomeCard = (props) => {
         <div>
           <img src={props.brandLogo} alt={props.heading} className="w-1/2" />
         </div>
-        <div className="w-full 2xl:px-10 xl:px-6 px-4">
+        <div className=" 2xl:px-10 xl:px-6 px-4">
           <h2 className="xl:text-2xl lg:text-xl md:text-sm  sm:text-xs font-bold ">
             {props.heading}
           </h2>
