@@ -16,12 +16,12 @@ const Panel = () => {
                     with the content on specific status and details on the completed actions.
                 </p>
             </div>
-            <div className="pb-4">
-                <Card className="py-4 flex items-center">
+            <Card className="py-4">
+                <div className="flex items-center">
                     <img src={PanelSuccessImg} alt="Panel Success" className="w-1/2" />
-                    <img src={PanelErrorImg} alt="Panel Error" className="w-1/2 ml-8" />
-                </Card>
-            </div>
+                    <img src={PanelErrorImg} alt="Panel Error" className="w-1/2 ml-2" />
+                </div>
+            </Card>
             <div className="pb-4">
                 <h2 className="sm:text-xl font-bold">Guidelines</h2>
                 <p className="md:text-xs lg:text-sm 2xl:text-base">

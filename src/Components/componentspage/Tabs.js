@@ -1,7 +1,6 @@
 import { Card, Header } from '@egovernments/digit-ui-react-components'
 import React from 'react'
-import TabA from "../../assets/img/all_fresh/TabA.png"
-import TabB from "../../assets/img/all_fresh/TabB.png"
+import Tab from "../../assets/img/all_fresh/Tab.png"
 
 const Tabs = () => {
     return (
@@ -19,8 +18,7 @@ const Tabs = () => {
             </div>
             <Card>
                 <div className="pb-4 flex space-x-8">
-                    <img src={TabA} alt="Inset Text" className="h-5 w-10" />
-                    <img src={TabB} alt="Inset Text" className="h-5 w-10" />
+                    <img src={Tab} alt="Inset Text" className="w-1/2" />
                 </div>
             </Card>
             <div className="pb-4">

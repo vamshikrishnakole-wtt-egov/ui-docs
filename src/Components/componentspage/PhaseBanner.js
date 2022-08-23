@@ -1,5 +1,6 @@
 import { Card, Header } from '@egovernments/digit-ui-react-components'
 import React from 'react'
+import PhaseBannerImg from "../../assets/img/all_fresh/PhaseBanner.png"
 
 const PhaseBanner = () => {
     return (
@@ -15,11 +16,9 @@ const PhaseBanner = () => {
                     provide their feedback on the specified feature or service.
                 </p>
             </div>
-            <div className="pb-4">
                 <Card className="py-4">
-                    Phase Banner
+                <img src={PhaseBannerImg} alt="Phase Banner" className="w-1/2" />
                 </Card>
-            </div>
             <div className="pb-4">
                 <h2 className="sm:text-xl font-bold">Guidelines</h2>
                 <p className="md:text-xs lg:text-sm 2xl:text-base">
