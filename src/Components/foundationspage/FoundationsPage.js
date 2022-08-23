@@ -3,6 +3,7 @@ import Card from "../common/Card";
 import ColorsIcon from "../../assets/img/foundations/colors.png";
 import TypoIcon from "../../assets/img/foundations/typo.png";
 import IconoIcon from "../../assets/img/foundations/icono.png";
+import AccessibilityIcon from "../../assets/img/foundations/Accessibility.png"
 import { Header } from "@egovernments/digit-ui-react-components";
 import arrowSign from "../../assets/img/arrow.png";
 import { Link } from "react-router-dom";
@@ -36,7 +37,7 @@ const FoundationsPage = () => {
     {
       id: 4,
       heading: "Accessibility",
-      Image: IconoIcon,
+      Image: AccessibilityIcon,
       para: "Accessible design lets people of all abilities interact with, understand, and navigate our product.",
       linkItem: "Explore",
       link: "/ui-docs/foundations/accessibility",
@@ -60,7 +61,7 @@ const FoundationsPage = () => {
           return (
             <Card key={item.id}>
               <div className="p-8 flex">
-                <img src={item.Image} alt={item.heading} />
+                <img style={{width:"64px"}} src={item.Image} alt={item.heading}/>
                 <div className="pl-4">
                   <h2 className="py-3 2xl:text-2xl sm:text-xl">
                     {item.heading}
