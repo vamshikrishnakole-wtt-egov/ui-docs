@@ -37,9 +37,9 @@ const TextInputs = () => {
             responses or data based on specific requirements.
           </p>
         </div>
-        <div className="py-4">
+        <Card className="py-4">
           <img src={TextInputImg} alt="Input Text" className="w-1/2" />
-        </div>
+        </Card>
         <div className="sm:w-3/5 w-full py-4">
           <h2 className="2xl:text-3xl xl:text-3xl md:text-2xl sm:text-lg font-bold">
             Guidelines
@@ -104,9 +104,9 @@ const TextInputs = () => {
             Hint text
           </h3>
         </div>
-        <div className="py-4">
+        <Card className="py-4">
           <img src={PasswordImg} alt="password" className="w-1/2"  />
-        </div>
+        </Card>
         <div className="py-4">
           <p className="2xl:text-lg sm:text-sm">
             Use hint text to give information to users on the kind of input
@@ -137,12 +137,12 @@ const TextInputs = () => {
           Error Messages
           </h3>
         </div>
-        <div
+        <Card
           className="py-4 cursor-pointer"
           onClick={() => setErrorCode(!errorCode)}
         >
         <img src={TextInputErrorImg} alt="Error Message" className="w-1/2" />
-          </div>
+          </Card>
         <div className="sm:w-3/5 w-full py-4">
           <p className="2xl:text-lg sm:text-sm pb-4">
           Follow the text input specifications given below for showing error messages on the screen.

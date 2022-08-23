@@ -29,7 +29,7 @@ const ToastMessage = () => {
       <Card className="py-4">
         <div className="flex items-center">
           <img src={ToastMessageImg} alt="Toast Message" className="w-1/2" />
-          <img src={FailureToastImg} alt="Toast Message" className="w-1/2 ml-8" />
+          <img src={FailureToastImg} alt="Toast Message" className="w-1/2 ml-2" />
         </div>
         <img src={WarningToastImg} alt="Toast Message" className="w-1/2 mt-8" />
       </Card>

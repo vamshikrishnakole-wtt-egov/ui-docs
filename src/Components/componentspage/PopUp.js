@@ -14,11 +14,9 @@ const PopUp = () => {
                     The Pop Up component opens up as a small dialogue box on the screen and is typically used to confirm a piece of action with the user. It can also be used to seek some information from the user before proceeding with the next steps.
                 </p>
             </div>
-            <div className="pb-4">
-                <div className="py-4">
+                <Card className="card py-4">
                     <img src={PopUpImg} alt="popup" className="w-1/2" />
-                </div>
-            </div>
+                </Card>
             <div className="pb-4">
                 <h2 className="sm:text-xl font-bold">Guidelines</h2>
                 <p className="md:text-xs lg:text-sm 2xl:text-base">

@@ -29,12 +29,10 @@ const UploadFiles = () => {
           screens.
         </p>
       </div>
-      <div className="pb-4">
-        <div className="mb-8">
+        <Card className="mb-8">
           <img src={FileUpload1Img} alt="File Upload" className="w-1/2" />
           <img src={FileUpload2Img} alt="File Upload" className="w-1/2 mt-8" />
-        </div>
-      </div>
+        </Card>
       <div className="pb-4">
         <h2 className="sm:text-xl font-bold">Guidelines</h2>
         <p className="md:text-xs lg:text-sm 2xl:text-base">
