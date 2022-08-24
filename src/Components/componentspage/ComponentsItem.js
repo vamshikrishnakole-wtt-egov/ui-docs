@@ -77,13 +77,14 @@ const Data = [
   {
     id: 10,
     Image: ComponentsImg10,
-    heading: "Warning Text",
+    heading: "Inset Text",
+    linkpath: "/ui-docs/components/inset-text",
   },
   {
     id: 11,
     Image: ComponentsImg11,
     heading: "Sidenav",
-    linkpath: "/ui-docs/components/waring-text",
+    linkpath: "/ui-docs/components/side-nav",
   },
   {
     id: 12,
@@ -114,13 +115,13 @@ const Data = [
     id: 16,
     Image: ComponentsImg16,
     heading: "Toast",
-    linkpath: "/ui-docs/components/tost",
+    linkpath: "/ui-docs/components/toast-message",
   },
   {
     id: 17,
     Image: ComponentsImg17,
     heading: "Popup",
-    linkpath: "/ui-docs/components/popup",
+    linkpath: "/ui-docs/components/pop-up",
   },
 ];
 

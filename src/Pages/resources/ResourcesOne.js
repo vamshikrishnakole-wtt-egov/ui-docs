@@ -27,9 +27,10 @@ const ResourcesOne = () => {
         Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, id. dolor, sit amet consectetur adipisicing elit. Iure reiciendis dicta voluptatum amet error corporis delectus accusamus nesciunt magnam fuga, asperiores mollitia, possimus eos ducimus numquam architecto est totam autem?
         </p>
       </div> */}
-      <div className="w-80 h-60 bg-gray-100" style={{position:'absolute',top:'0',bottom:'0',right:'0',left:'0',margin:'auto'}}>
+      <div className="w-80 h-60" style={{top:'0',bottom:'0',right:'0',left:'0',margin:'auto'}}>
           {/* <img src={rectImg} alt="rectangleImg"></img> */}
           <img src={ComingSoon} className="px-8 py-20" alt="ComingSoonImg"></img>
+          <h1 className="sm:text-2xl font-bold">Coming Soon</h1>
 
       </div>
     </div>

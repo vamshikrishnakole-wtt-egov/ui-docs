@@ -1,7 +1,8 @@
 import { Card, Header } from '@egovernments/digit-ui-react-components'
 import React from 'react'
 import SideNavImg from "../../assets/img/all_fresh/SideNav.png"
-
+import SideNavImgA from "../../assets/img/all_fresh/SideNavA.png"
+import SideNavImgB from "../../assets/img/all_fresh/SideNavB.png"
 const SideNav = () => {
     return (
         <div className="md:w-5/6 w-full mb-60">
@@ -15,7 +16,11 @@ const SideNav = () => {
                 </p>
             </div>
             <Card className="py-4">
-                <img src={SideNavImg} className='h-110 w-10' alt="Side Nav"  />
+            <div className="flex items-center">
+                <img src={SideNavImg}  alt="Side Nav" className="w-10 " />
+                <img style={{height:"46vw"}} src={SideNavImgA}  alt="Side NavA" className="w-45 ml-20"/>
+                <img style={{height:"46vw"}} src={SideNavImgB}  alt="Side NavB" className="w-45 ml-20"/>
+                </div>
             </Card>
             <div className="pb-4">
                 <h2 className="sm:text-xl font-bold">Guidelines</h2>

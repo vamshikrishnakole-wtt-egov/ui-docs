@@ -8,7 +8,7 @@ const HomeCard = (props) => {
     <Card>
       <div className="flex items-start 2xl:px-10 2xl:py-12 px-8 py-8">
         <div>
-          <img src={props.brandLogo} alt={props.heading} className="w-1/2" />
+          <img src={props.brandLogo} alt={props.heading} />
         </div>
         <div className=" 2xl:px-10 xl:px-6 px-4">
           <h2 className="xl:text-2xl lg:text-xl md:text-sm  sm:text-xs font-bold ">
