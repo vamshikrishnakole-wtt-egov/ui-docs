@@ -7,23 +7,10 @@ import React from "react";
 import BreadCrumImg from "../../assets/img/all_fresh/Breadcrumb.png"
 
 const BreadCrumbs = () => {
-  const crumbs = [
-    {
-      path: "/",
-      content: "Home",
-      show: true,
-    },
-    {
-      path: "/page1",
-      content: "page1",
-      show: true,
-    },
-  ];
   return (
     <div className="md:w-5/6 w-full mb-60">
-      <BreadCrumb crumbs={crumbs} />
       <div className="pb-2">
-        <Header>Bread Crumbs</Header>
+        <Header>Breadcrumbs</Header>
       </div>
       <div className="content_main">
         <div className="sm:w-3/5 w-full py-4">
