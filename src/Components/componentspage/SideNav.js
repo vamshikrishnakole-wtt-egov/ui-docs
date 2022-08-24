@@ -17,7 +17,7 @@ const SideNav = () => {
             </div>
             <Card className="py-4">
             <div className="flex items-center">
-                <img src={SideNavImg}  alt="Side Nav" className="w-10 " />
+                <img style={{height:"46vw"}}  src={SideNavImg}  alt="Side Nav" className="w-10 " />
                 <img style={{height:"46vw"}} src={SideNavImgA}  alt="Side NavA" className="w-45 ml-20"/>
                 <img style={{height:"46vw"}} src={SideNavImgB}  alt="Side NavB" className="w-45 ml-20"/>
                 </div>
