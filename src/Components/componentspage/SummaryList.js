@@ -48,10 +48,10 @@ const SummaryList = () => {
                 <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">
                     How to Apply
                 </h3>
-                <ul className="list-outside list-disc pl-4">
+                <ul className="list-outside list-disc pl-4 ml-5">
                     <li className="py-2"> Summarize the user responses and inputs in the summary list.</li>
-                    <li className="py-2"> Provide a link that navigates the user back to the specified section in case they want to</li>
-                    make any changes or update their responses before submitting.
+                    <li className="py-2"> Provide a link that navigates the user back to the specified section in case they want to
+                    make any changes or update their responses before submitting.</li>
                 </ul>
             </div>
         </div>

@@ -1,13 +1,13 @@
 import React from 'react';
 import PatternsPageItem from '../common/PatternsPageItem';
-import PatternOne from '../../Pages/patterns/PatternOne';
+import PatternDashboard from '../../Pages/patterns/PatternDashboard';
 
-const PatternOnePage = () => {
+const Dashboard = () => {
   return (
     <PatternsPageItem>
-        <PatternOne />
+        <PatternDashboard />
     </PatternsPageItem>
   );
 };
 
-export default PatternOnePage;
+export default Dashboard;
