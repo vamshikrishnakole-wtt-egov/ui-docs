@@ -5,7 +5,6 @@ import "../../App.css";
 import MenuData from "./MenuItem";
 import SearchIcon from "../../assets/img/search.png";
 import Container from "../common/Container";
-
 export default function Header({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
@@ -14,10 +13,7 @@ export default function Header({ fixed }) {
     <Container>
       <div className="lg:flex items-center justify-between block">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-          <Link to="/ui-docs">
-            <img src={logo} alt="logo" className="navbar-logo mb-3" />
-          </Link>
-          <button
+        <button
             className="text-border cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded block lg:hidden outline-none focus:outline-none"
             type="button"
             onClick={() => setNavbarOpen(!navbarOpen)}
@@ -27,6 +23,9 @@ export default function Header({ fixed }) {
             <div className="w-8 h-1 bg-red-400 my-1.5" style={{transform: navbarOpen && 'rotate(45deg)'}}></div>
             <div className="w-8 h-1 bg-red-400 my-1.5" style={{transform: navbarOpen && 'rotate(-45deg)'}}></div> */}
           </button>
+          <Link to="/ui-docs">
+            <img src={logo} alt="logo" className="navbar-logo mb-3" />
+          </Link>
         </div>
         <div
           className={

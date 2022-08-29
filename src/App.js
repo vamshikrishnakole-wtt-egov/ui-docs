@@ -28,7 +28,6 @@ import PersonalityPage from "./Pages/brand/PersonalityPage";
 import PromisePage from "./Pages/brand/PromisePage";
 import ValuesPage from "./Pages/brand/ValuesPage";
 import ContentPage from "./Pages/content/ContentPage";
-import PatternsPage from "./Pages/patterns/PatternsPage";
 import ResourcesPage from "./Pages/resources/ResourcesPage";
 import BackLinksPage from "./Pages/components/BackLinksPage";
 import ErrorMessagePage from "./Pages/components/ErrorMessagePage";
@@ -56,8 +55,28 @@ import DesignPrinciplesPage from "./Pages/brand/DesignPrinciplesPage";
 import FoundationsAccessibility from "./Pages/foundations/FoundationsAccessibility";
 import BrandingPage from "./Pages/brand/BrandingPage";
 import VoiceTonePage from "./Pages/content/VoiceTonePage"
-import PatternOnePage from "./Components/patterns/PatternOnePage";
+import LanguageSelection from "./Components/patterns/LanguageSelection";
+import CitySelection from "./Components/patterns/CitySelection"
+import MobileVerification from "./Components/patterns/MobileVerification";
+import DocumentRequired from "./Components/patterns/DocumentsRequired";
+import Address from "./Components/patterns/Address"
+import DocumentsUpload from "./Components/patterns/DocumentsUpload";
+import ApplicationSummary from "./Components/patterns/ApplicationSummary";
+import Payment from "./Components/patterns/Payment";
+import PaymentSuccess from "./Components/patterns/PaymentSuccess";
+import CollectFeedback from "./Components/patterns/CollectFeedback";
+import EmployeeCollectPayment from "./Components/patterns/EmployeeCollectPayment";
+import EmployeeLogin from "./Components/patterns/EmployeeLogin";
+import CounterEmployeeForm from "./Components/patterns/CounterEmployeeForm";
+import Bill from "./Components/patterns/Bill";
+import DashboardLanding from "./Components/patterns/DashboardLanding";
+import Search from "./Components/patterns/Search";
+import Dashboard from "./Components/patterns/Dashboard";
 import ResourcesOnePage from "./Components/resources/ResourcesOnePage";
+import ApplicationStatus from "./Components/patterns/ApplicationStatus";
+import EmployeeDashboard from "./Components/patterns/EmployeeDashboard";
+import EmployeeInbox from "./Components/patterns/EmployeeInbox";
+import Report from "./Components/patterns/Report";
 // import { Body, TopBar } from "@egov/digit-ui-react-components"; // for component use
 
 function App() {
@@ -402,8 +421,72 @@ function App() {
             <Redirect to="/ui-docs/patterns/pattern"/>
           </Route>
           <Route  path="/ui-docs/patterns/pattern">
-            <PatternOnePage />
+            <LanguageSelection />
           </Route>
+          <Route  path="/ui-docs/patterns/CitySelection">
+            <CitySelection />
+          </Route>
+          <Route  path="/ui-docs/patterns/MobileVerification">
+            <MobileVerification />
+          </Route>
+          <Route  path="/ui-docs/patterns/DocumentsRequired">
+            <DocumentRequired />
+          </Route>
+          <Route  path="/ui-docs/patterns/Address">
+            <Address />
+          </Route>
+          <Route  path="/ui-docs/patterns/ApplicationSummary">
+            <ApplicationSummary/>
+          </Route>
+          <Route  path="/ui-docs/patterns/Payment">
+            <Payment/>
+          </Route> 
+          <Route  path="/ui-docs/patterns/PaymentSuccess">
+            <PaymentSuccess/>
+          </Route>  
+          <Route  path="/ui-docs/patterns/Bill">
+            <Bill/>
+          </Route> 
+          <Route  path="/ui-docs/patterns/DashboardLanding">
+            <DashboardLanding/>
+          </Route> 
+          <Route  path="/ui-docs/patterns/Dashboard">
+            <Dashboard/>
+          </Route> 
+          <Route  path="/ui-docs/patterns/DocumentsUpload">
+            <DocumentsUpload/>
+          </Route> 
+          <Route  path="/ui-docs/patterns/CounterEmployeeForm">
+            <CounterEmployeeForm/>
+          </Route> 
+          <Route  path="/ui-docs/patterns/CounterSearch">
+            <Search/>
+          </Route>
+          <Route  path="/ui-docs/patterns/ApplicationStatus">
+            <ApplicationStatus/>
+          </Route>
+          <Route  path="/ui-docs/patterns/CollectFeedback">
+            <CollectFeedback/>
+          </Route>
+          <Route  path="/ui-docs/patterns/EmployeeLogin">
+            <EmployeeLogin/>
+          </Route>
+          <Route  path="/ui-docs/patterns/EmployeeDashboard">
+            <EmployeeDashboard/>
+          </Route>
+          <Route  path="/ui-docs/patterns/EmployeeInbox">
+            <EmployeeInbox/>
+          </Route>
+          <Route  path="/ui-docs/patterns/Search">
+            <Search/>
+          </Route> 
+          <Route  path="/ui-docs/patterns/Report">
+            <Report/>
+          </Route>
+          <Route  path="/ui-docs/patterns/EmployeeCollectPayment">
+            <EmployeeCollectPayment/>
+          </Route>
+
 
           <Route exact path="/ui-docs/resources">
             <Redirect to="/ui-docs/resources/resource"/>

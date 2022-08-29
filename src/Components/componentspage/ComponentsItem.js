@@ -72,7 +72,7 @@ const Data = [
     id: 7,
     Image: ComponentsImg7,
     heading: "Radio",
-    linkpath: "/ui-docs/components/radio",
+    linkpath: "/ui-docs/components/radio-buttons",
   },
   {
     id: 8,
