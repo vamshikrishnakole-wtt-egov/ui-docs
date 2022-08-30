@@ -9,7 +9,7 @@ const PatternLanguageSelection = () => {
       <div className="mb-8">
         <Header>Language Selection</Header>
       </div>
-          <img src={LanguageSelection} className=" pr-8  pb-8 w-1/2" alt="ComingSoonImg"></img>
+          <img src={LanguageSelection} className=" pr-8  pb-8 w-4/12" alt="LanguageSelection"></img>
           </div>
   );
   

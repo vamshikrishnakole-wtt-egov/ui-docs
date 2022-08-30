@@ -9,7 +9,7 @@ const PatternPayment = () => {
       <div className="mb-8">
         <Header>Payment</Header>
       </div>
-          <img src={Payment} className=" pr-8  pb-8 w-1/2" alt="ComingSoonImg"></img>
+          <img src={Payment} className=" pr-8  pb-8 w-4/12" alt="Payment"></img>
           </div>
   );
   

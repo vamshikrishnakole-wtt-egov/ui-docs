@@ -9,7 +9,7 @@ const PatternApplicationSummary = () => {
       <div className="mb-8">
         <Header>Application Summary</Header>
       </div>
-          <img src={ApplicationSummary} className=" pr-8  pb-8 w-1/2" alt="ComingSoonImg"></img>
+          <img src={ApplicationSummary} className=" pr-8  pb-8 w-4/12" alt="ApplicationSummary"></img>
           </div>
   );
   
