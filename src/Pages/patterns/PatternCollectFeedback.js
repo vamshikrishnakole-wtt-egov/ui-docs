@@ -9,7 +9,7 @@ const PatternCollectFeedback = () => {
       <div className="mb-8">
         <Header>Collect Feedback</Header>
       </div>
-          <img src={CollectFeedback} className=" pr-8  pb-8 w-4/5" alt="ComingSoonImg"></img>
+          <img src={CollectFeedback} className=" pr-8  pb-8 w-1/2" alt="CollectFeedback"></img>
           </div>
   );
   

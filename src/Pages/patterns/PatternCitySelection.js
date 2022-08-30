@@ -9,7 +9,7 @@ const PatternCitySelection = () => {
       <div className="mb-8">
         <Header>City Selection</Header>
       </div>
-          <img src={CitySelection} className=" pr-8  pb-8 w-1/2" alt="ComingSoonImg"></img>
+          <img src={CitySelection} className=" pr-8  pb-8 w-4/12" alt="CitySelection"></img>
           </div>
   );
   

@@ -9,7 +9,7 @@ const PatternAddress = () => {
       <div className="mb-8">
         <Header>Address</Header>
       </div>
-          <img src={Address} className=" pr-8  pb-8" alt="ComingSoonImg"></img>
+          <img src={Address} className=" pr-8  pb-8 w-11/12" alt="Address"></img>
           </div>
   );
   

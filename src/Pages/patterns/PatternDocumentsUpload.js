@@ -9,7 +9,7 @@ const PatternDocumentsUpload = () => {
       <div className="mb-8">
         <Header>Documents Upload</Header>
       </div>
-          <img src={DocumentsUpload} className=" pr-8  pb-8 w-1/2" alt="ComingSoonImg"></img>
+          <img src={DocumentsUpload} className=" pr-8  pb-8 w-4/12" alt="DocumentsUpload"></img>
           </div>
   );
   
