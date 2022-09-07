@@ -2,9 +2,10 @@ import { Card, Header } from '@egovernments/digit-ui-react-components'
 import React from 'react'
 import Tab from "../../assets/img/all_fresh/Tab.png"
 
+const isMobile = window.innerWidth < 768;
 const Tabs = () => {
     return (
-        <div className="md:w-5/6 w-full mb-60">
+        <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
             <div className="pb-2">
                 <Header>Tabs</Header>
             </div>

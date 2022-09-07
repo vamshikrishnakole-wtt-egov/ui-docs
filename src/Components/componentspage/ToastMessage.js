@@ -15,8 +15,9 @@ import FailureToastImg from "../../assets/img/all_fresh/FailureToast.png"
 const ToastMessage = () => {
   const [click, setClick] = useState(true);
   const [showPopUp, setShowPopUp] = useState(false);
+  const isMobile = window.innerWidth < 768;
   return (
-    <div className="md:w-5/6 w-full mb-60">
+    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
       <div className="pb-2">
         <Header>Toast Message</Header>
       </div>

@@ -2,9 +2,10 @@ import { Banner, Card, Header, InfoBanner } from '@egovernments/digit-ui-react-c
 import React from 'react'
 import NotificationBannerImg from "../../assets/img/all_fresh/NotificationBanner.png"
 
+const isMobile = window.innerWidth < 768;
 const NotificationBanner = () => {
     return (
-        <div className="md:w-5/6 w-full mb-60">
+        <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
             <div className="pb-2">
                 <Header>Notification Banner</Header>
             </div>

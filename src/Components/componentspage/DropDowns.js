@@ -52,13 +52,14 @@ const DropDowns = () => {
   setSelected(option);
   console.log(e, option);
 };
+const isMobile = window.innerWidth < 768;
 
  
   const onSelectEmployee = () => {
     console.log("Hello");
   };
   return (
-    <div className="md:w-5/6 w-full mb-60">
+    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
       <div className="mb-4">
         <Header>Drop Down</Header>
       </div>

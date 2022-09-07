@@ -2,9 +2,10 @@ import { Card, Header, LinkButton } from '@egovernments/digit-ui-react-component
 import React from 'react'
 import SkipLinkImg from "../../assets/img/all_fresh/SkipLink.png";
 
+const isMobile = window.innerWidth < 768;
 const SkipLink = () => {
     return (
-        <div className="md:w-5/6 w-full mb-60">
+        <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
             <div className="pb-2">
                 <Header>Skip Link</Header>
             </div>

@@ -6,9 +6,10 @@ import {
 import React from "react";
 import BackLinkImg from "../../assets/img/all_fresh/Back.png"
 
+const isMobile = window.innerWidth < 768;
 const BackLinks = () => {
   return (
-    <div className="md:w-5/6 w-full mb-60">
+    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
       <div className="pb-2">
         <Header>Backlink</Header>
       </div>

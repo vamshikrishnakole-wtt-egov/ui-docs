@@ -25,6 +25,7 @@ const handleDisplayPhotos =()=>{
 
 const ImageViewers = () => {
   const [imageZoomShow, setImageZoomShow] = useState(false);
+  const isMobile = window.innerWidth < 768;
   const handleClick = () => {
     setImageZoomShow(true);
   };
@@ -32,7 +33,7 @@ const ImageViewers = () => {
     setImageZoomShow(null);
   };
   return (
-    <div className="md:w-5/6 w-full mb-60">
+    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
       <div className="mb-4">
         <Header>Image Viewer</Header>
       </div>

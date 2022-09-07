@@ -2,9 +2,10 @@ import { Card, Header, SubmitBar } from '@egovernments/digit-ui-react-components
 import React from 'react'
 import PanelSuccessImg from "../../assets/img/all_fresh/PanelSuccess.png"
 import PanelErrorImg from "../../assets/img/all_fresh/PanelError.png"
+const isMobile = window.innerWidth < 768;
 const Panel = () => {
     return (
-        <div className="md:w-5/6 w-full mb-60">
+        <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
             <div className="pb-2">
                 <Header>Panel</Header>
             </div>

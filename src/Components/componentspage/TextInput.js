@@ -17,12 +17,13 @@ import TextInputErrorImg from "../../assets/img/all_fresh/TextInputError.png"
 const TextInputs = () => {
   const [inputName, setInputName] = useState("");
   const [number, setNumber] = useState(false);
+  const isMobile = window.innerWidth < 768;
   const [errorCode, setErrorCode] = useState(false);
   const handleChange = (e) => {
     setInputName(e.target.value); 
   };
   return (
-    <div className="md:w-5/6 w-full mb-60">
+    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
       <div className="mb-4">
         <Header>Text Input</Header>
       </div>
