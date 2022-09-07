@@ -10,7 +10,7 @@ const PatternDocumentsRequired = () => {
       <div className="mb-8">
         <Header>Documents Required</Header>
       </div>
-          <img src={DocumentsRequired} className={" pr-8  pb-8" + isMobile ? "w-58%" : "w-4/12"} alt="DocumentsRequired"></img>
+          <img src={DocumentsRequired} className={" pr-8  pb-8" + isMobile ? "" : "w-4/12"} alt="DocumentsRequired" style={ isMobile ? {maxWidth: "40%"} : {}}></img>
           </div>
   );
   

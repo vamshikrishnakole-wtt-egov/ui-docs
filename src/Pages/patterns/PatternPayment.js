@@ -10,7 +10,7 @@ const PatternPayment = () => {
       <div className="mb-8">
         <Header>Payment</Header>
       </div>
-          <img src={Payment} className={" pr-8  pb-8" + isMobile ? "w-4/4" : "w-4/12"} alt="Payment"></img>
+          <img src={Payment} className={" pr-8  pb-8" + isMobile ? "" : "w-4/12"} alt="Payment" style={ isMobile ? {maxWidth: "35%"} : {}}></img>
           </div>
   );
   

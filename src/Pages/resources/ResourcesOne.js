@@ -3,9 +3,10 @@ import rectImg from '../../assets/img/Patterns/rect.png'
 import { Header } from "@egovernments/digit-ui-react-components";
 import ComingSoon from '../../assets/img/Patterns/soon.png'
 
+const isMobile = window.innerWidth < 768;
 const ResourcesOne = () => {
   return (
-    <div className="md:w-5/6 w-full mb-60">
+    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "120%"} : {}}>
       <div className="mb-4">
         <Header>Resources</Header>
       </div>
@@ -29,7 +30,7 @@ const ResourcesOne = () => {
       </div> */}
       {/* <div className="w-120 h-60" style={{top:'0',bottom:'0',right:'0',left:'0',margin:'auto'}}> */}
           {/* <img src={rectImg} alt="rectangleImg"></img> */}
-          <img src={ComingSoon} className="pl-56 pr-8 pt-8 pb-8 w-4/5" alt="ComingSoonImg"/>
+          <img src={ComingSoon} className={(isMobile ? "" : "pl-56") + "pr-8 pt-8 pb-8 w-4/5"} alt="ComingSoonImg"/>
           <h1 style={{textAlign:"center"}} className="sm:text-2xl font-bold">Coming Soon</h1>
 
       </div>

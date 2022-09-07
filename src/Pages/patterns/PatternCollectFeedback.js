@@ -10,7 +10,7 @@ const PatternCollectFeedback = () => {
       <div className="mb-8">
         <Header>Collect Feedback</Header>
       </div>
-          <img src={CollectFeedback} className={" pr-8  pb-8" + isMobile ? "w-58%" : "w-1/2"} alt="CollectFeedback"></img>
+          <img src={CollectFeedback} className={" pr-8  pb-8" + isMobile ? "" : "w-1/2"} alt="CollectFeedback" style={ isMobile ? {maxWidth: "39%"} : {}}></img>
           </div>
   );
   

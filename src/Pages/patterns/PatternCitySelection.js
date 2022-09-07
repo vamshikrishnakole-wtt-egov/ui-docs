@@ -10,7 +10,7 @@ const PatternCitySelection = () => {
       <div className="mb-8">
         <Header>City Selection</Header>
       </div>
-          <img src={CitySelection} className={" pr-8  pb-8" + isMobile ? "w-58%" : "w-4/12"} alt="CitySelection"></img>
+          <img src={CitySelection} className={" pr-8  pb-8" + isMobile ? "" : "w-4/12"} alt="CitySelection" style={ isMobile ? {maxWidth: "40%"} : {}}></img>
           </div>
   );
   
