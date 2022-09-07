@@ -1,9 +1,10 @@
 import { Card, CardCaption, CardHeader, CardLabel, CardText, Header } from "@egovernments/digit-ui-react-components";
 import React from "react";
 
+const isMobile = window.innerWidth < 768;
 const Cards = () => {
   return (
-    <div className="md:w-5/6 w-full mb-60">
+    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
       <div className="pb-2">
         <Header>Cards</Header>
       </div>

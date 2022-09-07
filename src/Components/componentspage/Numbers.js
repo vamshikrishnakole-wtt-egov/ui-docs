@@ -4,13 +4,14 @@ import React, { useState } from "react";
 const Numbers = () => {
 
     const [otp, setOtp] = useState("");
+    const isMobile = window.innerWidth < 768;
 
     const onOtpChange =(e)=>{
       setOtp(e)
       console.log(e)
     }
   return (
-    <div className="md:w-5/6 w-full mb-60">
+    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
       <div className="mb-4">
         <Header>Number</Header>
       </div>

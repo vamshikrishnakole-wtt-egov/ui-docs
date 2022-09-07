@@ -2,6 +2,7 @@ import { Card, Header, RadioButtons } from '@egovernments/digit-ui-react-compone
 import React, { useState } from 'react'
 import RadioImg from "../../assets/img/all_fresh/Radio.png"
 
+const isMobile = window.innerWidth < 768;
 const RadioButton = () => {
     const [selectedOption, setSelectedOption] = useState();
     const name = ['Radio']
@@ -10,7 +11,7 @@ const RadioButton = () => {
         setSelectedOption(e)
     }
     return (
-        <div className="md:w-5/6 w-full mb-60">
+        <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
             <div className="pb-2">
                 <Header>Radio Buttons</Header>
             </div>

@@ -3,13 +3,14 @@ import React from 'react'
 import Select1Img from "../../assets/img/all_fresh/Select1.png"
 import Select2Img from "../../assets/img/all_fresh/Select2.png"
 
+const isMobile = window.innerWidth < 768;
 const Select = () => {
     const cityData = [{heading:"head 1",options:[{city:"a"}]},{heading:"head 2",options:[{city:"b"}]}]
     const onSelectEmployee = () => {
         console.log("Hello");
       };
     return (
-        <div className="md:w-5/6 w-full mb-60">
+        <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
             <div className="pb-2">
                 <Header>Select</Header>
             </div>

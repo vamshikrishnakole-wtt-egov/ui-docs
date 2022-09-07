@@ -2,9 +2,10 @@ import { Card, Header } from '@egovernments/digit-ui-react-components'
 import React from 'react'
 import TableImg from "../../assets/img/all_fresh/Table.png"
 
+const isMobile = window.innerWidth < 768;
 const Tables = () => {
     return (
-        <div className="md:w-5/6 w-full mb-60">
+        <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
             <div className="pb-2">
                 <Header>Table</Header>
             </div>

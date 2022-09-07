@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Header, RadioButtons } from "@egovernments/digit-ui-react-components";
 import RadioImg from "../../assets/img/all_fresh/Radio.png"
 
+const isMobile = window.innerWidth < 768;
 const Radio = () => {
   const [selectedOption, setSelectedOption] = useState();
     const name = ['hello', 'world']
@@ -10,7 +11,7 @@ const Radio = () => {
       setSelectedOption(e)
     }
   return (
-    <div className="md:w-5/6 w-full mb-60">
+    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
       <div className="mb-4">
         <Header>Radio</Header>
       </div>

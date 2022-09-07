@@ -3,8 +3,9 @@ import { Card, Header } from "@egovernments/digit-ui-react-components";
 import HeaderImg from "../../assets/img/all_fresh/Header.png"
 
 const HeaderComponents = () => {
+  const isMobile = window.innerWidth < 768;
   return (
-    <div className="md:w-5/6 w-full mb-60">
+    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
       <div className="mb-4">
         <Header>Header</Header>
       </div>

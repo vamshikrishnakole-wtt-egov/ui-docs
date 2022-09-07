@@ -3,11 +3,12 @@ import React from "react";
 import AlertImg from "../../assets/img/all_fresh/Alert.png"
 
 const ErrorMessage = () => {
+  const isMobile = window.innerWidth < 768;
   const onSelect=()=>{
     console.log("hello")
   }
   return (
-    <div className="md:w-5/6 w-full mb-60">
+    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
       <div className="mb-4">
         <Header>Error Message</Header>
       </div>
