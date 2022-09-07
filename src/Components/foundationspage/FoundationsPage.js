@@ -8,6 +8,7 @@ import { Header } from "@egovernments/digit-ui-react-components";
 import arrowSign from "../../assets/img/arrow.png";
 import { Link } from "react-router-dom";
 
+const isMobile = window.innerWidth < 1024;
 const FoundationsPage = () => {
   const CardData = [
     {
@@ -45,7 +46,7 @@ const FoundationsPage = () => {
 
   ];
   return (
-    <div className="md:w-5/6 w-full mb-60">
+    <div className="md:w-5/6 w-full mb-60" style={ isMobile? {maxWidth: "120%", width: "max-content"} : {}}>
       <div className="pb-2">
         <Header>Foundations</Header>
       </div>

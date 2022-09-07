@@ -9,6 +9,7 @@ import DpImg from "../../assets/img/brand/DesignPrinciples.png"
 import Card from "../common/Card";
 import arrowSign from "../../assets/img/arrow.png";
 
+const isMobile = window.innerWidth < 768;
 const BrandPage = () => {
   const CardData = [
     {
@@ -54,7 +55,7 @@ const BrandPage = () => {
 
   ];
   return (
-    <div className="md:w-5/6 w-full mb-60">
+    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
       <div className="pb-2">
         <Header>Brand</Header>
       </div>

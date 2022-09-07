@@ -2,13 +2,14 @@ import { Card, Header, RadioButtons } from '@egovernments/digit-ui-react-compone
 import React from 'react'
 import PaginationImg from "../../assets/img/all_fresh/Pagination.png"
 
+const isMobile = window.innerWidth < 768;
 const Pagination = () => {
     const availableOptions = [
         { code: "ASSIGNED_TO_ME", name: `${("ES_INBOX_ASSIGNED_TO_ME")} (0)` },
         { code: "ASSIGNED_TO_ALL", name: `${("ES_INBOX_ASSIGNED_TO_ALL")} ` },
       ];
     return (
-        <div className="md:w-5/6 w-full mb-60">
+        <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
             <div className="pb-2">
                 <Header>Pagination</Header>
             </div>

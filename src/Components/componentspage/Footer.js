@@ -3,6 +3,7 @@ import React from 'react'
 import FooterImg from "../../assets/img/all_fresh/Footer.png"
 
 const Footer = () => {
+    const isMobile = window.innerWidth < 768;
     const menuItems =[
         {
             id : 1,
@@ -10,7 +11,7 @@ const Footer = () => {
         }
     ]
     return (
-        <div className="md:w-5/6 w-full mb-60">
+        <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
             <div className="pb-2">
                 <Header>Footer</Header>
             </div>

@@ -11,6 +11,7 @@ import FileUpload2Img from "../../assets/img/all_fresh/FileUpload2.png"
 const UploadFiles = () => {
   const [file, setFile] = useState(null);
   const [imageFile, setImageFile] = useState(null);
+  const isMobile = window.innerWidth < 768;
   function selectfile(e) {
     setFile(e.target.files[0]);
   }
@@ -18,7 +19,7 @@ const UploadFiles = () => {
     setImageFile(e.target.files[0]);
   }
   return (
-    <div className="md:w-5/6 w-full mb-60">
+    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
       <div className="mb-4">
         <Header>File Upload</Header>
       </div>

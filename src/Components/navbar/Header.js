@@ -5,11 +5,27 @@ import "../../App.css";
 import MenuData from "./MenuItem";
 import SearchIcon from "../../assets/img/search.png";
 import Container from "../common/Container";
+import SubMenuComponent from "./SubMenuComponent";
+import MenuItemComponent from "./MenuItemComponent";
 export default function Header({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
+  const [menuListOpen, setMenuListOpen] = React.useState(false);
+  const isMobile = window.innerWidth < 768;
   return (
     // to make the orange border to be at the edge we have to remove bottom padding in nav(use py-4 to get previous look)
-    <nav className="relative flex flex-wrap navbar_shadow bg-white items-center justify-between px-4 pt-6 pb-0">
+    <nav className="relative flex flex-wrap navbar_shadow bg-white items-center justify-between px-4 pt-6 pb-0"
+    style={isMobile && navbarOpen
+    ? 
+    {
+      position: "fixed", 
+      backgroundColor: "rgba(255,255,255,1)", 
+      height: "-webkit-fill-available", 
+      marginLeft: "-30px",
+      width: "80%",
+      overflow: "auto",
+      alignItems: "start" 
+    }
+      : {}}>
     <Container>
       <div className="lg:flex items-center justify-between block">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
@@ -33,8 +49,23 @@ export default function Header({ fixed }) {
             (navbarOpen ? " flex" : " hidden")
           }
           id="example-navbar-danger"
+          // style={isMobile ? {position: "fixed", backgroundColor: "rgba(255,255,255,1)", height: "-webkit-fill-available", marginLeft: "-30px" }: {}}
         >
-          <ul className="flex flex-col lg:flex-row list-none">
+          {isMobile 
+          ? <ul className="flex flex-col lg:flex-row list-none" style={{maxWidth: "max-content"}}>
+          {MenuData.map((data) => {
+            return (
+              <MenuItemComponent
+              id={data.id} 
+              item={data.item} 
+              link={data.link}
+              subItems={data.subItems ? data.subItems : null}
+              setNavbarOpen={setNavbarOpen}
+              ></MenuItemComponent>
+            );
+          })}
+        </ul>  
+          : <ul className="flex flex-col lg:flex-row list-none">
             {MenuData.map((data) => {
               return (
                 <li className="nav-item 2xl:px-4 px-1" key={data.id}  onClick={() => setNavbarOpen(false)}>
@@ -48,7 +79,7 @@ export default function Header({ fixed }) {
                 </li>
               );
             })}
-          </ul>
+          </ul>}
          </div>
         </div>
         </Container>

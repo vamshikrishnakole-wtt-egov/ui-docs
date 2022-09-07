@@ -4,11 +4,12 @@ import DateInputImg from "../../assets/img/all_fresh/DateInput.png"
 
 const DateInput = () => {
     const [date, setDate] = useState(Date());
+    const isMobile = window.innerWidth < 768;
     const handleDate = (e) => {
         setDate(e)
     }
     return (
-        <div className="md:w-5/6 w-full mb-60">
+        <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
             <div className="pb-2">
                 <Header>Date Input</Header>
             </div>

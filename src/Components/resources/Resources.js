@@ -3,10 +3,10 @@ import React from "react";
 import rectImg from '../../assets/img/Patterns/rect.png'
 import ComingSoon from '../../assets/img/Patterns/soon.png'
 
-
+const isMobile = window.innerWidth < 768;
 const Resources = () => {
   return (
-    <div className="md:w-5/6 w-full mb-60">
+    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
       <div className="mb-4">
         <Header>Resources</Header>
       </div>

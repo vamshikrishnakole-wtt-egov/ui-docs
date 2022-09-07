@@ -3,9 +3,10 @@ import React from 'react'
 import InsetTextImg from "../../assets/img/all_fresh/InsetText.png"
 import InsetTextImgOne from "../../assets/img/all_fresh/InsetTextOne.png"
 
+const isMobile = window.innerWidth < 768;
 const InsetText = () => {
     return (
-        <div className="md:w-5/6 w-full mb-60">
+        <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
             <div className="pb-2">
                 <Header>Inset Text</Header>
             </div>
