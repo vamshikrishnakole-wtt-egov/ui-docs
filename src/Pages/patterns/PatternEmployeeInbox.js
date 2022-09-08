@@ -10,7 +10,7 @@ const PatternEmployeeInbox = () => {
       <div className="mb-8">
         <Header>Employee Inbox</Header>
       </div>
-          <img src={EmployeeInbox} className={" pr-8  pb-8" + isMobile ? "" : "w-4/5"} alt="ComingSoonImg" style={ isMobile ? {maxWidth: "40%"} : {}}></img>
+          <img src={EmployeeInbox} className={" pr-8  pb-8" + isMobile ? "" : "w-4/5"} alt="ComingSoonImg" style={ isMobile ? {maxWidth: "40%"} : {maxWidth: "60%"}}></img>
           </div>
   );
   

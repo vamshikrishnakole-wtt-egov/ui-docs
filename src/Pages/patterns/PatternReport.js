@@ -10,7 +10,7 @@ const PatternReport = () => {
       <div className="mb-8">
         <Header>Report</Header>
       </div>
-          <img src={Report} className={" pr-8  pb-8" + isMobile ? "w-4/3" : "w-4/5"} alt="ComingSoonImg"></img>
+          <img src={Report} style={ isMobile ? {maxWidth: "100%"} : {maxWidth: "60%"}} className={" pr-8  pb-8" + isMobile ? "w-4/3" : "w-4/5"} alt="ComingSoonImg"></img>
           </div>
   );
   

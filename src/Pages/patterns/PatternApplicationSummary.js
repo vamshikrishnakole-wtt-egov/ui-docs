@@ -10,7 +10,7 @@ const PatternApplicationSummary = () => {
       <div className="mb-8">
         <Header>Application Summary</Header>
       </div>
-          <img src={ApplicationSummary} className={" pr-8  pb-8" + isMobile ? "" : "w-4/12"} alt="ApplicationSummary" style={ isMobile ? {maxWidth: "38%"} : {}}></img>
+          <img src={ApplicationSummary} className={" pr-8  pb-8" + isMobile ? "" : "w-4/12"} alt="ApplicationSummary" style={ isMobile ? {maxWidth: "38%"} : {maxWidth: "40%"}}></img>
           </div>
   );
   
