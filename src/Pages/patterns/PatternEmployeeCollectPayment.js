@@ -10,7 +10,7 @@ const PatternEmployeeCollectPayment = () => {
       <div className="mb-8">
         <Header>Employee Collect Payment</Header>
       </div>
-          <img src={EmployeeCollectPayment} className={" pr-8  pb-8" + isMobile ? "" : "w-4/5"} alt="ComingSoonImg" style={ isMobile ? {maxWidth: "40%"} : {}}></img>
+          <img src={EmployeeCollectPayment} className={" pr-8  pb-8" + isMobile ? "" : "w-4/5"} alt="ComingSoonImg" style={ isMobile ? {maxWidth: "40%"} : {maxWidth: "60%"}}></img>
           </div>
   );
   

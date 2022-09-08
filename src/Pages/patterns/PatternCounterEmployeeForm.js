@@ -10,7 +10,7 @@ const PatternCounterEmployeeForm = () => {
       <div className="mb-8">
         <Header>Counter Employee Form</Header>
       </div>
-          <img src={CounterEmployeeForm} className={" pr-8  pb-8" + isMobile ? "" : "w-4/5"} alt="ComingSoonImg" style={ isMobile ? {maxWidth: "38%"} : {}}></img>
+          <img src={CounterEmployeeForm} className={" pr-8  pb-8" + isMobile ? "" : "w-4/5"} alt="ComingSoonImg" style={ isMobile ? {maxWidth: "38%"} : {maxWidth: "60%"}}></img>
           </div>
   );
   

@@ -10,7 +10,7 @@ const PatternAddress = () => {
       <div className="mb-8">
         <Header>Address</Header>
       </div>
-          <img src={Address} className={" pr-8  pb-8" + isMobile ? "" : "w-11/12"} alt="Address" style={ isMobile ? {maxWidth: "38%"} : {}}></img>
+          <img src={Address} className={" pr-8  pb-8" + isMobile ? "" : "w-11/12"} alt="Address" style={ isMobile ? {maxWidth: "38%"} : {maxWidth: "60%"}}></img>
           </div>
   );
   

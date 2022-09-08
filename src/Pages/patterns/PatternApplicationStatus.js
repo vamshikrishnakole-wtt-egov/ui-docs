@@ -10,7 +10,7 @@ const PatternApplicationStatus = () => {
       <div className="mb-8">
         <Header>Application Status</Header>
       </div>
-          <img src={ApplicationStatus} className={" pr-8  pb-8" + isMobile ? "" : "w-1/2"} alt="ApplicationStatus" style={ isMobile ? {maxWidth: "41.25%"} : {}}></img>
+          <img src={ApplicationStatus} className={" pr-8  pb-8" + isMobile ? "" : "w-1/2"} alt="ApplicationStatus" style={ isMobile ? {maxWidth: "41.25%"} : {maxWidth: "40%"}}></img>
           </div>
   );
   
