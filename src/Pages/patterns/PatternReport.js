@@ -6,7 +6,7 @@ import Report from '../../assets/img/Patterns/Report.png'
 const isMobile = window.innerWidth < 768;
 const PatternReport = () => {
       return (
-    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
+    <div className="md:w-5/6 mb-60" style={isMobile ? {width: "180%"} : {}}>
       <div className="mb-8">
         <Header>Report</Header>
       </div>

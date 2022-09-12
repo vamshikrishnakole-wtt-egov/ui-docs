@@ -6,11 +6,11 @@ import CounterEmployeeForm from '../../assets/img/Patterns/CounterEmployeeForm.p
 const isMobile = window.innerWidth < 768;
 const PatternCounterEmployeeForm = () => {
       return (
-    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "300%"} : {}}>
+    <div className="md:w-5/6 mb-60" style={isMobile ? {width: "235%"} : {}}>
       <div className="mb-8">
         <Header>Counter Employee Form</Header>
       </div>
-          <img src={CounterEmployeeForm} className={" pr-8  pb-8" + isMobile ? "" : "w-4/5"} alt="ComingSoonImg" style={ isMobile ? {maxWidth: "38%"} : {maxWidth: "60%"}}></img>
+          <img src={CounterEmployeeForm} className={" pr-8  pb-8" + isMobile ? "" : "w-4/5"} alt="ComingSoonImg" style={ isMobile ? {maxWidth: "80%"} : {maxWidth: "60%"}}></img>
           </div>
   );
   

@@ -6,7 +6,7 @@ import Search from '../../assets/img/Patterns/Search.png'
 const isMobile = window.innerWidth < 768;
 const PatternSearch = () => {
       return (
-    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
+    <div className="md:w-5/6 mb-60" style={isMobile ? {width: "180%"} : {}}>
       <div className="mb-8">
         <Header>Search</Header>
       </div>

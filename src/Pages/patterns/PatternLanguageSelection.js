@@ -6,7 +6,7 @@ import LanguageSelection from '../../assets/img/Patterns/LanguageSelection.png'
 const isMobile = window.innerWidth < 768;
 const PatternLanguageSelection = () => {
       return (
-    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
+    <div className="md:w-5/6 mb-60" style={isMobile ? {width: "150%"} : {}}>
       <div className="mb-8">
         <Header>Language Selection</Header>
       </div>

@@ -68,7 +68,6 @@ import CollectFeedback from "./Components/patterns/CollectFeedback";
 import EmployeeCollectPayment from "./Components/patterns/EmployeeCollectPayment";
 import EmployeeLogin from "./Components/patterns/EmployeeLogin";
 import CounterEmployeeForm from "./Components/patterns/CounterEmployeeForm";
-import Bill from "./Components/patterns/Bill";
 import DashboardLanding from "./Components/patterns/DashboardLanding";
 import Search from "./Components/patterns/Search";
 import Dashboard from "./Components/patterns/Dashboard";
@@ -444,9 +443,6 @@ function App() {
           <Route  path="/ui-docs/patterns/PaymentSuccess">
             <PaymentSuccess/>
           </Route>  
-          <Route  path="/ui-docs/patterns/Bill">
-            <Bill/>
-          </Route> 
           <Route  path="/ui-docs/patterns/DashboardLanding">
             <DashboardLanding/>
           </Route> 
