@@ -91,16 +91,11 @@ const PatternsSidebarItem =[
     },
     {
         id : 19,
-        item : 'Bill',
-        linkpath : "/ui-docs/patterns/Bill"
-    },
-    {
-        id : 20,
         item : 'Dashboard Landing',
         linkpath : "/ui-docs/patterns/DashboardLanding"
     },
     {
-        id : 21,
+        id : 20,
         item : 'Dashboard',
         linkpath : "/ui-docs/patterns/Dashboard"
     }

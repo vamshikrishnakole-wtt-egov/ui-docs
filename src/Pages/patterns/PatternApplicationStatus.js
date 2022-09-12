@@ -6,11 +6,11 @@ import ApplicationStatus from '../../assets/img/Patterns/ApplicationStatus.png'
 const isMobile = window.innerWidth < 768;
 const PatternApplicationStatus = () => {
       return (
-    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "300%"} : {}}>
+    <div className="md:w-5/6 mb-60" style={isMobile ? {width: "235%"} : {}}>
       <div className="mb-8">
         <Header>Application Status</Header>
       </div>
-          <img src={ApplicationStatus} className={" pr-8  pb-8" + isMobile ? "" : "w-1/2"} alt="ApplicationStatus" style={ isMobile ? {maxWidth: "41.25%"} : {maxWidth: "40%"}}></img>
+          <img src={ApplicationStatus} className={" pr-8  pb-8" + isMobile ? "" : "w-1/2"} alt="ApplicationStatus" style={ isMobile ? {maxWidth: "70%"} : {maxWidth: "40%"}}></img>
           </div>
   );
   

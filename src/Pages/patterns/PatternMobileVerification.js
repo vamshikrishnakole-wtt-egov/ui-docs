@@ -6,7 +6,7 @@ import MobileVerification from '../../assets/img/Patterns/MobileVerification.png
 const isMobile = window.innerWidth < 768;
 const PatternMobileVerification = () => {
       return (
-    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
+    <div className="md:w-5/6 mb-60" style={isMobile ? {width: "155%"} : {}}>
       <div className="mb-8">
         <Header>Mobile Verification</Header>
       </div>

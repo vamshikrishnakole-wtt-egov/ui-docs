@@ -34,7 +34,7 @@ export default function Header({ fixed }) {
             type="button"
             onClick={() => setNavbarOpen(!navbarOpen)}
           >
-            {!navbarOpen ? <i className="fa fa-bars"></i> : <i class="fas fa-times"></i>}
+            {!navbarOpen ? <i className="fa fa-bars" style={{color:"black"}}></i> : <i class="fas fa-times" style={{color:"black"}}></i>}
             {/* <div className="w-8 h-1 bg-red-400 my-1.5" style={{display: navbarOpen && 'none'}}></div>
             <div className="w-8 h-1 bg-red-400 my-1.5" style={{transform: navbarOpen && 'rotate(45deg)'}}></div>
             <div className="w-8 h-1 bg-red-400 my-1.5" style={{transform: navbarOpen && 'rotate(-45deg)'}}></div> */}
