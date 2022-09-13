@@ -11,7 +11,7 @@ const Numbers = () => {
       console.log(e)
     }
   return (
-    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
+    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "200%"} : {}}>
       <div className="mb-4">
         <Header>Number</Header>
       </div>

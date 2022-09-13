@@ -46,7 +46,7 @@ const FoundationsPage = () => {
 
   ];
   return (
-    <div className="md:w-5/6 w-full mb-60" style={ isMobile? {maxWidth: "120%", width: "max-content"} : {}}>
+    <div className="md:w-5/6 w-full mb-60" style={ isMobile? {maxWidth: "200%", width: "max-content"} : {}}>
       <div className="pb-2">
         <Header>Foundations</Header>
       </div>

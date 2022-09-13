@@ -42,7 +42,7 @@ const Typography = () => {
   ];
 
   return (
-    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
+    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "200%"} : {}}>
       <div className="pb-2">
         <Header>Typography</Header>
       </div>

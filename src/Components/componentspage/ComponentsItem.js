@@ -188,7 +188,7 @@ const isMobile = window.innerWidth < 768;
 const ComponentsItem = () => {
   return (
     <>
-      <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
+      <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "200%"} : {}}>
         <div className="pb-2 sm:w-3/5 w-full">
           <Header>Components</Header>
           <p className="md:text-xs lg:text-sm 2xl:text-base py-4">

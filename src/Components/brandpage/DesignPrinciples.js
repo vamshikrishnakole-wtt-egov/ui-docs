@@ -4,7 +4,7 @@ import { Header } from "@egovernments/digit-ui-react-components";
 const isMobile = window.innerWidth < 768;
 const DesignPrinciples = () => {
   return (
-    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
+    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "200%"} : {}}>
       <div className="mb-4">
         <Header className="sm:text-3xl font-bold">Design Principles</Header>
       </div>
