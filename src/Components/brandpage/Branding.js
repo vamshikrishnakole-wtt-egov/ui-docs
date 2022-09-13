@@ -7,7 +7,7 @@ import BrandingImgThree from "../../assets/img/brand/Branding3.png"
 const isMobile = window.innerWidth < 768;
 const Branding = () => {
   return (
-      <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
+      <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "200%"} : {}}>
         <div className='mb-4' >
           <Header>Branding</Header>
         </div>

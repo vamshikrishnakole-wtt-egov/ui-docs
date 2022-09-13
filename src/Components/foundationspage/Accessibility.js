@@ -18,7 +18,7 @@ import groupImg from '../../assets/img/foundations/accessibility/group.png'
 const isMobile = window.innerWidth < 768;
 const Accessibility = () => {
   return (
-    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
+    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "200%"} : {}}>
       <div className="mb-4">
         <Header className="sm:text-3xl font-bold">Accessibility</Header>
         <div>

@@ -21,7 +21,7 @@ export default function Header({ fixed }) {
       backgroundColor: "rgba(255,255,255,1)", 
       height: "-webkit-fill-available", 
       marginLeft: "-30px",
-      width: "80%",
+      width: "70%",
       overflow: "auto",
       alignItems: "start" 
     }
@@ -40,7 +40,7 @@ export default function Header({ fixed }) {
             <div className="w-8 h-1 bg-red-400 my-1.5" style={{transform: navbarOpen && 'rotate(-45deg)'}}></div> */}
           </button>
           <Link to="/ui-docs">
-            <img src={logo} alt="logo" className="navbar-logo mb-3" />
+            <img src={logo} alt="logo" className="navbar-logo mb-3" style={isMobile ? {marginTop: "5px"} : {}} />
           </Link>
         </div>
         <div

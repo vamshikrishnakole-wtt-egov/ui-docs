@@ -59,7 +59,7 @@ const isMobile = window.innerWidth < 768;
     console.log("Hello");
   };
   return (
-    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "125%"} : {}}>
+    <div className="md:w-5/6 w-full mb-60" style={isMobile ? {width: "200%"} : {}}>
       <div className="mb-4">
         <Header>Drop Down</Header>
       </div>

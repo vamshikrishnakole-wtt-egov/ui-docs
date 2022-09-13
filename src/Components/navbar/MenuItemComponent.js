@@ -20,17 +20,17 @@ const MenuItemComponent = props => {
                 activeClassName="border-b-2 border-border"
                 className="px-2 xl:px-5 py-2 text-nav flex items-center capitalize font-bold leading-snug hover:opacity-75" 
                 to={link}
-                onClick={() => setMenuListOpen(!menuListOpen)}
+                onClick={() => setNavbarOpen(false)}
                 >
                 {item}
             </NavLink>
-            {/* <div 
+            <div 
             style={{marginTop: "4px", marginLeft: "64px", fontWeight: 700}} 
             onClick={() => setMenuListOpen(!menuListOpen)}> 
             <span style={{float: "right"}}>
             {menuListOpen ? <ArrowForward style={{transform: "rotate(90deg)"}}/> : <ArrowForward/>}
             </span>
-            </div> */}
+            </div>
             </div>
             {subItems && menuListOpen && subItems.map((sub) => {
                 return (
