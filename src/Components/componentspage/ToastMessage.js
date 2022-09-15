@@ -22,7 +22,7 @@ const ToastMessage = () => {
         <Header>Toast Message</Header>
       </div>
       <div className="pb-4">
-        <h2 className="sm:text-xl font-bold">Overview</h2>
+        <h2 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">Overview</h2>
         <p className="md:text-xs lg:text-sm 2xl:text-base">
           The Toast component is used to provide users with temporary notifications. It does not require any user action.
         </p>
@@ -34,12 +34,6 @@ const ToastMessage = () => {
         </div>
         <img src={WarningToastImg} alt="Toast Message" className="w-1/2 mt-8" />
       </Card>
-      <div className="pb-4">
-        <h2 className="sm:text-xl font-bold">Guidelines</h2>
-        <p className="md:text-xs lg:text-sm 2xl:text-base">
-          Follow the design guidelines below to ensure the visual consistency of this component across DIGIT screens and applications.
-        </p>
-      </div>
       <div className="pb-4">
         <h2 className="sm:text-lg font-bold">When to Apply</h2>
         <p className="md:text-xs lg:text-sm 2xl:text-base">

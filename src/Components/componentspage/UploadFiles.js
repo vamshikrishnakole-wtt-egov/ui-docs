@@ -24,7 +24,7 @@ const UploadFiles = () => {
         <Header>File Upload</Header>
       </div>
       <div className="pb-4">
-        <h2 className="sm:text-xl font-bold">Overview</h2>
+        <h2 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">Overview</h2>
         <p className="md:text-xs lg:text-sm 2xl:text-base">
           The File Uploader component allows users to select and upload files on the application
           screens.
@@ -34,20 +34,12 @@ const UploadFiles = () => {
           <img src={FileUpload1Img} alt="File Upload" className="w-1/2" />
           <img src={FileUpload2Img} alt="File Upload" className="w-1/2 mt-8" />
         </Card>
-      <div className="pb-4">
-        <h2 className="sm:text-xl font-bold">Guidelines</h2>
-        <p className="md:text-xs lg:text-sm 2xl:text-base">
-          Follow the guidelines here to provide standardized UI components across DIGIT screens
-          and modules.
-        </p>
-      </div>
       <div className="sm:w-3/5 w-full py-4">
         <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">
           When to Apply
         </h3>
         <p className="2xl:text-lg sm:text-sm">
-          Follow the guidelines here to provide standardized UI components across DIGIT screens
-          and modules.
+        You should only ask users to upload something if it's mandatory for the delivery of service.
         </p>
       </div>
       <div className="sm:w-3/5 w-full py-4">

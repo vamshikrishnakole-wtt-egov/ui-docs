@@ -14,7 +14,7 @@ const BackLinks = () => {
         <Header>Backlink</Header>
       </div>
       <div className="pb-4">
-        <h2 className="sm:text-xl font-bold">Overview</h2>
+        <h2 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">Overview</h2>
         <p className="md:text-xs lg:text-sm 2xl:text-base">
           The backlink button redirects the user back to the previous page. The
           back button is an important component guiding user navigation across
@@ -24,13 +24,6 @@ const BackLinks = () => {
       <Card className="py-4">
         <img src={BackLinkImg}  alt="Back" className="h-10 w-20" />
       </Card>
-      <div className="pb-4">
-        <h2 className="sm:text-xl font-bold">Guidelines</h2>
-        <p className="md:text-xs lg:text-sm 2xl:text-base">
-          Follow the guidelines mentioned below to design and deploy the
-          backlink component.
-        </p>
-      </div>
       <div className="sm:w-3/5 w-full py-4">
         <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">
           When to Apply

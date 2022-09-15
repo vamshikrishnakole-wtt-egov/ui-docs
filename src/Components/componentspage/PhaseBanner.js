@@ -10,7 +10,7 @@ const PhaseBanner = () => {
                 <Header>Phase Banner</Header>
             </div>
             <div className="pb-4">
-                <h2 className="sm:text-xl font-bold">Overview</h2>
+                <h2 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">Overview</h2>
                 <p className="md:text-xs lg:text-sm 2xl:text-base">
                     Phase banner components are used to inform users that the specified service or feature is
                     new and still in the development or testing phase. These banners may also prompt users to
@@ -20,20 +20,12 @@ const PhaseBanner = () => {
                 <Card className="py-4">
                 <img src={PhaseBannerImg} alt="Phase Banner" className="w-1/2" />
                 </Card>
-            <div className="pb-4">
-                <h2 className="sm:text-xl font-bold">Guidelines</h2>
-                <p className="md:text-xs lg:text-sm 2xl:text-base">
-                    Use the guidelines below to ensure a standardized and uniform design of phase banner
-                    components across DIGIT application modules and screens.
-                </p>
-            </div>
             <div className="sm:w-3/5 w-full py-4">
                 <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">
                     When to Apply
                 </h3>
                 <p className="2xl:text-lg sm:text-sm">
-                    Use the Panel component to display the completed action status message and
-                    acknowledge with specific transaction details.
+                Use an alpha banner when your service is in alpha, and a beta banner if your service is in private or public beta.
                 </p>
             </div>
             <div className="sm:w-3/5 w-full py-4">
