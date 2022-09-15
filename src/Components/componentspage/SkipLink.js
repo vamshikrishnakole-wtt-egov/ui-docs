@@ -10,7 +10,7 @@ const SkipLink = () => {
                 <Header>Skip Link</Header>
             </div>
             <div className="pb-4">
-                <h2 className="sm:text-xl font-bold">Overview</h2>
+                <h2 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">Overview</h2>
                 <p className="md:text-xs lg:text-sm 2xl:text-base">
                     The Skip Link component allows users to navigate back to the home page or the main
                     content page in one click. This component assists user navigation making it easier for
@@ -21,13 +21,6 @@ const SkipLink = () => {
                 <Card className="py-4">
                 <img src={SkipLinkImg} alt="skip link" className="h-5 w-50" />
                 </Card>
-            </div>
-            <div className="pb-4">
-                <h2 className="sm:text-xl font-bold">Guidelines</h2>
-                <p className="md:text-xs lg:text-sm 2xl:text-base">
-                    Follow the design guidelines below to ensure the visual consistency of this component
-                    across DIGIT screens and applications.
-                </p>
             </div>
             <div className="sm:w-3/5 w-full py-4">
                 <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">

@@ -14,7 +14,7 @@ const Pagination = () => {
                 <Header>Pagination</Header>
             </div>
             <div className="pb-4">
-                <h2 className="sm:text-xl font-bold">Overview</h2>
+                <h2 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">Overview</h2>
                 <p className="md:text-xs lg:text-sm 2xl:text-base">
                     The Pagination component is used to divide content into distinct pages. It allows users to
                     navigate to specific pages with ease. This prevents the users from getting overwhelmed
@@ -25,13 +25,6 @@ const Pagination = () => {
                 <Card className="py-4">
                     <img src={PaginationImg} alt="pagination" className="w-1/2" />
                 </Card>
-            </div>
-            <div className="pb-4">
-                <h2 className="sm:text-xl font-bold">Guidelines</h2>
-                <p className="md:text-xs lg:text-sm 2xl:text-base">
-                    Follow the below guidelines to match the Pagination component design with established
-                    DIGIT design standards.
-                </p>
             </div>
             <div className="sm:w-3/5 w-full py-4">
                 <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">

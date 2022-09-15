@@ -10,7 +10,7 @@ const Tag = () => {
                 <Header>Tag</Header>
             </div>
             <div className="pb-4">
-                <h2 className="sm:text-xl font-bold">Overview</h2>
+                <h2 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">Overview</h2>
                 <p className="md:text-xs lg:text-sm 2xl:text-base">
                     The Tag component is used to display the status of specific user actions.
                 </p>
@@ -20,12 +20,6 @@ const Tag = () => {
                 <Card className="py-4">
                     <img src={TagImg} alt="tag" className="w-1/2" />
                 </Card>
-            </div>
-            <div className="pb-4">
-                <h2 className="sm:text-xl font-bold">Guidelines</h2>
-                <p className="md:text-xs lg:text-sm 2xl:text-base">
-                   The tag component should be used to provide users with information about certain actions. The tag can be configured to display multiple status details such as tasks completed or if a specific component is in an active or inactive state. 
-                </p>
             </div>
             <div className="sm:w-3/5 w-full py-4">
                 <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">

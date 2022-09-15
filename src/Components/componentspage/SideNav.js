@@ -12,7 +12,7 @@ const SideNav = () => {
                 <Header>Side Nav</Header>
             </div>
             <div className="pb-4">
-                <h2 className="sm:text-xl font-bold">Overview</h2>
+                <h2 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">Overview</h2>
                 <p className="md:text-xs lg:text-sm 2xl:text-base">
                     The Side Nav component provides users with access to the system menu and navigation options. It can be used for single or multiple levels of navigation.
                 </p>
@@ -24,12 +24,6 @@ const SideNav = () => {
                 <img style={{height:"46vw"}} src={SideNavImgB}  alt="Side NavB" className="w-45 ml-20"/>
                 </div>
             </Card>
-            <div className="pb-4">
-                <h2 className="sm:text-xl font-bold">Guidelines</h2>
-                <p className="md:text-xs lg:text-sm 2xl:text-base">
-                   Follow the design guidelines below to ensure the visual consistency of this component across DIGIT screens and applications.
-                </p>
-            </div>
             <div className="sm:w-3/5 w-full py-4">
                 <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">
                     When to Apply

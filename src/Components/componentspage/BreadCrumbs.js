@@ -31,15 +31,6 @@ const BreadCrumbs = () => {
         </Card>
       </div>
       <div className="sm:w-3/5 w-full py-4">
-        <h2 className="2xl:text-3xl xl:text-3xl md:text-2xl sm:text-lg font-bold">
-          Guidelines
-        </h2>
-        <p className="2xl:text-lg sm:text-sm">
-          The guidelines below specify the DIGIT principles applied to the
-          design and deployment of the breadcrumbs component.
-        </p>
-      </div>
-      <div className="sm:w-3/5 w-full py-4">
         <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">
           When to Apply
         </h3>
