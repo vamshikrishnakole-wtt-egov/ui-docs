@@ -28,7 +28,6 @@ import PersonalityPage from "./Pages/brand/PersonalityPage";
 import PromisePage from "./Pages/brand/PromisePage";
 import ValuesPage from "./Pages/brand/ValuesPage";
 import ContentPage from "./Pages/content/ContentPage";
-import ResourcesPage from "./Pages/resources/ResourcesPage";
 import BackLinksPage from "./Pages/components/BackLinksPage";
 import ErrorMessagePage from "./Pages/components/ErrorMessagePage";
 import DateInputPage from "./Pages/components/DateInputPage";
