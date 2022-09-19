@@ -6,7 +6,7 @@ import EmployeeCollectPayment from '../../assets/img/Patterns/EmployeeCollectPay
 const isMobile = window.innerWidth < 768;
 const PatternEmployeeCollectPayment = () => {
       return (
-    <div className="md:w-5/6 mb-60" style={isMobile ? {width: "235%"} : {}}>
+    <div className="md:w-5/6 mb-60" style={isMobile ? {width: "220%"} : {}}>
       <div className="mb-8">
         <Header>Employee Collect Payment</Header>
       </div>

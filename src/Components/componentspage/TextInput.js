@@ -41,7 +41,7 @@ const TextInputs = () => {
         <Card className="py-4">
           <img src={TextInputImg} alt="Input Text" className="w-1/2" />
         </Card>
-        <div className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">
+        <div className="sm:w-3/5 w-full py-4">
           <h3 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">
             When to Apply
           </h3>

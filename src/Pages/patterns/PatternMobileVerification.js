@@ -10,7 +10,7 @@ const PatternMobileVerification = () => {
       <div className="mb-8">
         <Header>Mobile Verification</Header>
       </div>
-          <img src={MobileVerification} style={ isMobile ? {maxWidth: "100%"} : {maxWidth: "50%"}} className={" pr-8  pb-8" + isMobile ? "w-4/4" : "w-4/12"} alt="MobileVerification"></img>
+          <img src={MobileVerification} style={ isMobile ? {maxWidth: "100%"} : {maxWidth: "90%"}} className={" pr-8  pb-8" + isMobile ? "w-4/4" : "w-4/12"} alt="MobileVerification"></img>
           </div>
   );
   
