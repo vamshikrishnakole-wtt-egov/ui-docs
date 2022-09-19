@@ -10,7 +10,7 @@ const ResourcesOne = () => {
       <div className="mb-4">
         <Header>Resources</Header>
       </div>
-          <img src={ComingSoon} style={ isMobile ? {Width: "100%"} : {maxWidth: "50%"}} className={(isMobile ? "" : " ml-16") + "pr-8 pt-8 pb-8 w-4/5 ml-16"} alt="ComingSoonImg"/>
+          <img src={ComingSoon} style={ isMobile ? {Width: "100%"} : {maxWidth: "50%"}} className={isMobile ? "pr-8 pt-8 pb-8 w-4/5 ml-16" : " pr-8 pt-8 pb-8 w-4/5 ml-48"} alt="ComingSoonImg"/>
           <h1 style={{textAlign:"center"}} className="sm:text-2xl font-bold">Coming Soon</h1>
 
       </div>

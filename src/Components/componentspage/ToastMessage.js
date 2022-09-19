@@ -34,14 +34,14 @@ const ToastMessage = () => {
         </div>
         <img src={WarningToastImg} alt="Toast Message" className="w-1/2 mt-8" />
       </Card>
-      <div className="pb-4">
-        <h2 className="sm:text-lg font-bold">When to Apply</h2>
+      <div className="sm:w-3/5 w-full py-4">
+        <h2 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">When to Apply</h2>
         <p className="md:text-xs lg:text-sm 2xl:text-base">
           Use the Toast component to display failure, success, or warning messages to the users.
         </p>
       </div>
-      <div className="pb-4">
-        <h2 className="sm:text-lg font-bold">When not to Apply</h2>
+      <div className="sm:w-3/5 w-full py-4">
+        <h2 className="2xl:text-2xl xl:text-2xl md:text-xl sm:text-sm font-bold">When not to Apply</h2>
         <p className="md:text-xs lg:text-sm 2xl:text-base">
          Toast should not be used to display any high-priority alerts, errors, or information that require any kind of user response. 
         </p>
