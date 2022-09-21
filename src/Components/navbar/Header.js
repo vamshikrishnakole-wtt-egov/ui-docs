@@ -70,7 +70,7 @@ export default function Header({ fixed }) {
               return (
                 <li className="nav-item 2xl:px-4 px-1" key={data.id}  onClick={() => setNavbarOpen(false)}>
                   <NavLink
-                    activeClassName=" border-border"
+                    activeClassName="border-b-2  border-border"
                     className="px-2 xl:px-5 py-2 text-nav flex items-center capitalize font-normal leading-snug hover:opacity-75" 
                     to={data.link}
                   >

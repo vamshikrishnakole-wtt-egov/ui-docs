@@ -46,7 +46,7 @@ const ResourcesOne = () => {
                   </p>
                   <Link  
                     to={item.link} 
-                    className="text-border xl:text-base md:text-sm sm:text-xs flex items-center "target="_blank" rel="noopener"
+                    className="text-border xl:text-base md:text-sm sm:text-xs flex items-center "target="_blank" 
                   > 
                     {item.linkItem}{" "}
                     <span>
